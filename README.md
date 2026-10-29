@@ -14,6 +14,7 @@ This is a free, non-commercial study reader for the Greek Septuagint (Rahlfs 193
   - the Latin Vulgate word aligned to this Greek word, with its parse and meaning (a separate CC BY-SA layer).
 - **Two English translations:** Brenton (1844/1851) and LXX2012, the 2012 American-English update of Brenton. Use the **EN** button to switch: Brenton → LXX2012 → both → off. Each translation is matched to the Greek verse on its own, and is hidden where the match is unsure.
 - **≠ badge:** marks verses where Brenton translated noticeably different Greek, so the English may not match the Rahlfs text shown.
+- **Two Greek versions, one book:** Daniel, Susanna and Bel (Theodotion / Old Greek), Joshua and Judges (B / A text) and Tobit (short BA / long S) appear once in the book list. A **Version** picker at the top of the chapter switches versions in the same chapter, explains each one in a line, and remembers your choice. Old links such as `#/DanOG/7` still work, and `#/Dan/7` opens your preferred version. English and Latin lines are shown only where they match the version (Brenton translated Theodotion, B and BA).
 - Notes on New Testament quotations, search, dark mode and font sizes.
 
 ## How accurate is it? (honest numbers)

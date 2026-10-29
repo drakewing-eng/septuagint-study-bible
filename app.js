@@ -5,7 +5,29 @@
   var BOOKS = null, BYID = {}, LEX = null, MORPH = null, COUNTS = null, cache = {}, occCache = {};
   var GFIX = null, VULW = null, LATLEX = null, NOTES = null, CHN = {}, ENSTAT = {};
   var cur = { book: null, ch: null }, selLex = null;
-  var GROUPS = [['Law (Pentateuch)', 'Gen'], ['Historical books', 'JoshB'], ['Poetry & Wisdom', 'Ps'], ['Prophets', 'Hos']];
+  /* Books Rahlfs prints in two Greek versions: one list entry each, with a Version picker in the chapter. */
+  var VERS = {
+    Josh: { name: 'Joshua', v: [['JoshB', 'B text', 'Codex Vaticanus text — Rahlfs’ main text for the whole book (Brenton translated this).'], ['JoshA', 'A text', 'Codex Alexandrinus text, printed separately only where it differs a lot (chapters 15, 18, 19).']] },
+    Judg: { name: 'Judges', v: [['JudgB', 'B text', 'Codex Vaticanus family — the text Brenton translated.'], ['JudgA', 'A text', 'Codex Alexandrinus family; it differs throughout, so Rahlfs prints both in full.']] },
+    Tob: { name: 'Tobit', v: [['TobBA', 'Short (BA)', 'Shorter text of Codices Vaticanus and Alexandrinus — the one Brenton translated.'], ['TobS', 'Long (S)', 'Longer text of Codex Sinaiticus, often thought closer to the original.']] },
+    Sus: { name: 'Susanna', v: [['SusTh', 'Theodotion', 'Later Greek version (2nd c. AD), the one the Church read and Brenton translated.'], ['SusOG', 'Old Greek', 'The original Septuagint translation; freer and quite different in places.']] },
+    Dan: { name: 'Daniel', v: [['DanTh', 'Theodotion', 'Later Greek version (2nd c. AD), closer to the Hebrew/Aramaic; the Daniel the Church read and Brenton translated.'], ['DanOG', 'Old Greek', 'The original Septuagint translation (mainly Papyrus 967 and Codex 88); freer and different in places.']] },
+    Bel: { name: 'Bel and the Dragon', v: [['BelTh', 'Theodotion', 'Later Greek version (2nd c. AD), the one the Church read and Brenton translated.'], ['BelOG', 'Old Greek', 'The original Septuagint translation; different wording and details.']] }
+  }, VBASE = {}, VIS = [];
+  Object.keys(VERS).forEach(function (k) { VERS[k].v.forEach(function (x) { VBASE[x[0]] = k; }); });
+  function prefOf(base) { var p = load('lxx-ver-' + base); return VERS[base].v.some(function (x) { return x[0] === p; }) ? p : VERS[base].v[0][0]; }
+  function computeVis() {   /* visible book order: one entry per book, Susanna–Daniel–Bel in Rahlfs order */
+    var seen = {}, out = [];
+    BOOKS.forEach(function (b) {
+      var base = VBASE[b.id];
+      if (base === 'Bel' || base === 'Dan' || base === 'Sus') { if (!seen.SDB) { seen.SDB = 1; ['Sus', 'Dan', 'Bel'].forEach(function (k) { out.push(BYID[prefOf(k)]); }); } return; }
+      if (!base) { out.push(b); return; }
+      if (!seen[base]) { seen[base] = 1; out.push(BYID[prefOf(base)]); }
+    });
+    VIS = out; VIS.forEach(function (b, i) { b.vi = i; });
+  }
+  function bookName(b) { var base = VBASE[b.id]; return base ? VERS[base].name : b.name; }
+  var GROUPS = [['Law (Pentateuch)', 'Gen'], ['Historical books', 'Josh'], ['Poetry & Wisdom', 'Ps'], ['Prophets', 'Hos']];
 
   function get(url) {
     if (cache[url]) return cache[url];
@@ -19,7 +41,7 @@
   function init() {
     Promise.all([get('data/books.json'), get('data/morph.json'), get('data/chapnotes.json').catch(function () { return {}; })]).then(function (r) {
       BOOKS = r[0]; MORPH = r[1]; CHN = r[2] || {};
-      BOOKS.forEach(function (b, i) { b.i = i; BYID[b.id] = b; });
+      BOOKS.forEach(function (b, i) { b.i = i; BYID[b.id] = b; }); computeVis();
       buildBookList();
       window.addEventListener('hashchange', route);
       route();
@@ -68,9 +90,9 @@
 
   function buildBookList() {
     var h = '', g = 0;
-    BOOKS.forEach(function (b) {
-      if (g < GROUPS.length && GROUPS[g][1] === b.id) { h += '<div class="grp">' + GROUPS[g][0] + '</div>'; g++; }
-      h += '<button class="bk" data-b="' + b.id + '">' + esc(b.name) + '</button><div class="chs" data-for="' + b.id + '" hidden></div>';
+    VIS.forEach(function (b) {
+      if (g < GROUPS.length && (GROUPS[g][1] === b.id || GROUPS[g][1] === VBASE[b.id])) { h += '<div class="grp">' + GROUPS[g][0] + '</div>'; g++; }
+      h += '<button class="bk" data-b="' + b.id + '">' + esc(bookName(b)) + '</button><div class="chs" data-for="' + b.id + '" hidden></div>';
     });
     $('#bookList').innerHTML = h;
     $('#bookList').onclick = function (e) {
@@ -98,6 +120,7 @@
     closePanel();
     if (p[0] === 'about') return about();
     if (p[0] === 'search') return search(new URLSearchParams(q).get('q') || '', new URLSearchParams(q).get('lex'));
+    if (p[0] && VERS[p[0]]) { var vb = BYID[prefOf(p[0])]; location.replace('#/' + vb.id + '/' + (p[1] && vb.chapters.map(String).indexOf(p[1]) >= 0 ? p[1] : vb.chapters[0]) + (p[2] ? '/' + p[2] : '') + (q ? '?' + q : '')); return; }
     if (!p[0] || !BYID[p[0]]) {
       var last = load('lxx-last'); location.replace('#/' + (last && BYID[last.split('/')[0]] ? last : 'Gen/1')); return;
     }
@@ -108,21 +131,32 @@
   function step(d) {
     if (!cur.book) return;
     var b = BYID[cur.book], i = b.chapters.map(String).indexOf(cur.ch) + d;
-    if (i < 0) { b = BOOKS[b.i - 1]; if (!b) return; i = b.chapters.length - 1; }
-    else if (i >= b.chapters.length) { b = BOOKS[b.i + 1]; if (!b) return; i = 0; }
+    if (i < 0) { b = VIS[b.vi - 1]; if (!b) return; i = b.chapters.length - 1; }
+    else if (i >= b.chapters.length) { b = VIS[b.vi + 1]; if (!b) return; i = 0; }
     location.hash = '#/' + b.id + '/' + b.chapters[i];
   }
   function chName(b, ch) { return ch === 'Prolog' ? 'Prologue' : ch; }
 
   function chapter(b, ch, verse, lex) {
     cur = { book: b.id, ch: ch }; store('lxx-last', b.id + '/' + ch);
-    $('#locBtn').textContent = b.name.replace(/ \(.*\)/, '') + ' ' + chName(b, ch);
+    var vbase = VBASE[b.id];
+    if (vbase && prefOf(vbase) !== b.id) { store('lxx-ver-' + vbase, b.id); computeVis(); buildBookList(); }
+    $('#locBtn').textContent = bookName(b) + ' ' + chName(b, ch);
     document.title = b.name + ' ' + chName(b, ch) + ' — Septuagint Study Bible';
     $('#main').innerHTML = '<p class="loading">Loading…</p>';
     get('data/' + b.id + '/' + ch + '.json').then(function (vs) {
       ENSTAT = {};
       if (NOTES === null) onceGet('data/notes.json').then(function (n) { NOTES = n || {}; markNotes(b.id, ch); });
-      var h = '<h1>' + esc(b.name) + ' ' + esc(chName(b, ch)) + (b.id === 'Ps' ? '<small>Greek (LXX) psalm numbering — e.g. LXX Ps 22 = Hebrew/English Ps 23.</small>' : '') + '</h1>';
+      var h = '<h1>' + esc(bookName(b)) + ' ' + esc(chName(b, ch)) + (b.id === 'Ps' ? '<small>Greek (LXX) psalm numbering — e.g. LXX Ps 22 = Hebrew/English Ps 23.</small>' : '') + '</h1>';
+      if (vbase) {
+        var vcur = VERS[vbase].v.filter(function (x) { return x[0] === b.id; })[0];
+        h += '<div class="verpick"><span class="vlab">Version</span><span class="vseg" role="group" aria-label="Greek version">' + VERS[vbase].v.map(function (x) {
+          var t = BYID[x[0]], has = t.chapters.map(String).indexOf(String(ch)) >= 0;
+          if (x[0] === b.id) return '<span class="vopt on" aria-current="true" title="' + esc(x[2]) + '">' + esc(x[1]) + '</span>';
+          if (!has) return '<span class="vopt off" title="' + esc(x[1] + ': not extant for this chapter (' + (t.chapters.length < 6 ? 'only chapters ' + t.chapters.join(', ') : 'different chapters') + '). ' + x[2]) + '">' + esc(x[1]) + '</span>';
+          return '<a class="vopt" data-v="' + x[0] + '" href="#/' + x[0] + '/' + ch + '" title="' + esc(x[2]) + '">' + esc(x[1]) + '</a>';
+        }).join('') + '</span><span class="vexp">' + esc(vcur[2]) + '</span></div>';
+      }
       var cn = CHN[b.id + '/' + ch];
       if (cn) h += '<div class="badge">⚠ <b>English alignment note for this chapter.</b> ' + [cn.moved ? cn.moved + ' verse' + (cn.moved > 1 ? 's' : '') + ' re-matched to Brenton’s numbering (marked [Br. …])' : '', cn.hidden ? cn.hidden + ' verse' + (cn.hidden > 1 ? 's' : '') + ' with English hidden (no reliable match)' : '', cn.joined ? cn.joined + ' verse' + (cn.joined > 1 ? 's' : '') + ' whose English is included with a neighbouring verse' : '', cn.differs ? cn.differs + ' verse' + (cn.differs > 1 ? 's' : '') + ' where Brenton translated a different Greek wording (≠)' : ''].filter(Boolean).join('; ') + '. <a href="#/about">Why?</a></div>';
       vs.forEach(function (v) {
@@ -134,11 +168,11 @@
         h += '</p>';
       });
       var bi = b.chapters.map(String).indexOf(ch);
-      var prev = bi > 0 ? [b, b.chapters[bi - 1]] : (BOOKS[b.i - 1] ? [BOOKS[b.i - 1], BOOKS[b.i - 1].chapters.slice(-1)[0]] : null);
-      var next = bi < b.chapters.length - 1 ? [b, b.chapters[bi + 1]] : (BOOKS[b.i + 1] ? [BOOKS[b.i + 1], BOOKS[b.i + 1].chapters[0]] : null);
-      h += '<nav class="chnav">' + (prev ? '<a href="#/' + prev[0].id + '/' + prev[1] + '">‹ ' + esc(prev[0].name.replace(/ \(.*\)/, '')) + ' ' + prev[1] + '</a>' : '<span></span>') +
-        (next ? '<a href="#/' + next[0].id + '/' + next[1] + '">' + esc(next[0].name.replace(/ \(.*\)/, '')) + ' ' + next[1] + ' ›</a>' : '') + '</nav>';
-      if (!b.en) h += '<p class="small">No Brenton English is available for this book.</p>';
+      var prev = bi > 0 ? [b, b.chapters[bi - 1]] : (VIS[b.vi - 1] ? [VIS[b.vi - 1], VIS[b.vi - 1].chapters.slice(-1)[0]] : null);
+      var next = bi < b.chapters.length - 1 ? [b, b.chapters[bi + 1]] : (VIS[b.vi + 1] ? [VIS[b.vi + 1], VIS[b.vi + 1].chapters[0]] : null);
+      h += '<nav class="chnav">' + (prev ? '<a href="#/' + prev[0].id + '/' + prev[1] + '">‹ ' + esc(bookName(prev[0])) + ' ' + prev[1] + '</a>' : '<span></span>') +
+        (next ? '<a href="#/' + next[0].id + '/' + next[1] + '">' + esc(bookName(next[0])) + ' ' + next[1] + ' ›</a>' : '') + '</nav>';
+      if (!b.en) h += '<p class="small">' + (vbase ? 'No English is shown for this version: Brenton translated the ' + esc(VERS[vbase].v[0][1]) + ' version.' : 'No Brenton English is available for this book.') + '</p>';
       h += '<p class="small">Greek: Rahlfs 1935 via CCAT/eliranwong (CC BY-NC-SA 4.0). English: Brenton 1844/1851 (public domain; translated from the Vatican-based Greek printed by Bagster) and LXX2012 (Michael Paul Johnson’s 2012 American-English update of Brenton, public domain; same Greek) — archaic 19th-century English, translated from a different Greek edition, so wording and verse division sometimes differ from the Greek shown. <a href="#/about">Sources &amp; caveats</a></p>';
       var m = $('#main'); m.innerHTML = h; m.onclick = onWord;
       if (b.en) onceGet('data/en2/' + b.id + '/' + ch + '.json').then(function (e2) {
