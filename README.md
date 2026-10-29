@@ -64,3 +64,6 @@ Never run `realign.py` or `fix_data.py` on their own: they change the data in pl
 
 ## Archive
 A zip of the complete site is attached to each GitHub release.
+
+## Old address
+This project used to be `drakewing-eng/lxx-reader`. GitHub redirects the old **repository** URL, but not the old Pages site: https://drakewing-eng.github.io/lxx-reader/ now returns 404. Please use the address at the top of this file.
