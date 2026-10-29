@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Septuagint Reader</title>
-<meta name="description" content="Read the Greek Septuagint (Rahlfs 1935) — tap any word for lemma, parsing and gloss.">
+<title>Septuagint Study Bible</title>
+<meta name="description" content="Read the Greek Septuagint (Rahlfs 1935) — tap any word for meaning, grammar, forms, the Latin Vulgate and New Testament links.">
 <meta name="theme-color" content="#7a3e1d">
 <link rel="stylesheet" href="style.css">
 <link rel="preload" href="fonts/GentiumPlus-Regular.woff2" as="font" type="font/woff2" crossorigin>
@@ -13,7 +13,7 @@
 <body>
 <header class="top">
   <button id="menuBtn" class="iconbtn" aria-label="Books" title="Books">☰</button>
-  <a href="#/" class="brand">Septuagint<span> Reader</span></a>
+  <a href="#/" class="brand">Septuagint<span> Study Bible</span></a>
   <div class="nav">
     <button id="prevBtn" class="iconbtn" aria-label="Previous chapter" title="Previous chapter">‹</button>
     <button id="locBtn" class="loc" aria-label="Choose chapter"></button>
@@ -37,7 +37,8 @@
 
 <section id="panel" class="panel" hidden aria-live="polite">
   <div class="panel-grip"></div>
-  <button class="iconbtn close" id="panelClose" aria-label="Close">✕</button>
+  <div class="pbar"><div class="ptools"><button class="iconbtn" id="pSmaller" aria-label="Smaller panel text" title="Smaller text">A−</button><button class="iconbtn" id="pLarger" aria-label="Larger panel text" title="Larger text">A+</button></div>
+  <button class="iconbtn close" id="panelClose" aria-label="Close">✕</button></div>
   <div id="panelBody"></div>
 </section>
 <div id="scrim" hidden></div>

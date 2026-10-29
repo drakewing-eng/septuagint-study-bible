@@ -1,0 +1,1698 @@
+[
+{
+"ref": "Gen 27:40",
+"i": 18,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Gen 31:42",
+"i": 23,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Gen 35:5",
+"i": 4,
+"form": "Σικιμων",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Exod 7:19",
+"i": 40,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Exod 11:5",
+"i": 2,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Exod 12:12",
+"i": 11,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Exod 12:44",
+"i": 1,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Exod 39:1",
+"i": 30,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Exod 39:3",
+"i": 11,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 3:28",
+"i": 2,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Num 7:19",
+"i": 21,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:25",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:31",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:37",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:43",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:49",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:55",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:61",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:67",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:73",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Num 7:79",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Deut 12:11",
+"i": 46,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Deut 20:13",
+"i": 13,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "JudgB 5:14",
+"i": 26,
+"form": "διηγήσεως",
+"old": "N.DSF",
+"new": "N.GSF",
+"why": "-εως is genitive singular"
+},
+{
+"ref": "Ruth 4:7",
+"i": 17,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "1Sam 20:37",
+"i": 10,
+"form": "ἠκόντιζεν",
+"old": "V.AAI3S",
+"new": "V.IAI3S",
+"why": "ἠκόντιζεν is imperfect (aorist ἠκόντισεν) (Wiktionary + form)"
+},
+{
+"ref": "1Sam 26:24",
+"i": 14,
+"form": "μεγαλυνθείη",
+"old": "V.APPNSF",
+"new": "V.APO3S",
+"why": "-θείη = aorist passive optative 3rd singular"
+},
+{
+"ref": "1Sam 30:14",
+"i": 2,
+"form": "ἐπεθέμεθα",
+"old": "V.AMI2P",
+"new": "V.AMI1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "1Sam 30:14",
+"i": 20,
+"form": "ἐνεπυρίσαμεν",
+"old": "V.AAI3S",
+"new": "V.AAI1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "2Sam 3:29",
+"i": 0,
+"form": "καταντησάτωσαν",
+"old": "V.AAS3P",
+"new": "V.AAD3P",
+"why": "-σάτωσαν is the aorist imperative 3rd plural ending"
+},
+{
+"ref": "2Sam 18:14",
+"i": 14,
+"form": "τρία",
+"old": "A.ASN",
+"new": "A.APN",
+"why": "τρία is plural (Wiktionary + form)"
+},
+{
+"ref": "2Sam 19:43",
+"i": 27,
+"form": "ἐφάγαμεν",
+"old": "V.AAI2P",
+"new": "V.AAI1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "1Kgs 12:6",
+"i": 8,
+"form": "παρεστῶτες",
+"old": "V.AAPNPM",
+"new": "V.XAPNPM",
+"why": "-εστῶτες is the perfect participle of ἵστημι compounds"
+},
+{
+"ref": "1Kgs 16:28",
+"i": 14,
+"form": "υἱὸς",
+"old": "N.GSM",
+"new": "N.NSM",
+"why": "υἱός is nominative (gen. υἱοῦ) (Wiktionary + form)"
+},
+{
+"ref": "1Kgs 18:42",
+"i": 11,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Kgs 7:4",
+"i": 2,
+"form": "εἰσέλθωμεν",
+"old": "V.AAS1S",
+"new": "V.AAS1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "2Kgs 16:18",
+"i": 1,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Kgs 17:14",
+"i": 5,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Kgs 17:14",
+"i": 9,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Kgs 24:14",
+"i": 17,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "2Kgs 25:9",
+"i": 16,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "2Kgs 25:11",
+"i": 1,
+"form": "τὸ",
+"old": "RA.ASM",
+"new": "RA.ASN",
+"why": "the article form τὸ is ASN (case-number-gender)"
+},
+{
+"ref": "2Chr 14:6",
+"i": 4,
+"form": "οἰκοδομήσωμεν",
+"old": "V.AAS2P",
+"new": "V.AAS1P",
+"why": "-ωμεν is 1st person plural"
+},
+{
+"ref": "2Chr 19:11",
+"i": 9,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "2Chr 19:11",
+"i": 22,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "2Chr 24:12",
+"i": 19,
+"form": "ἐμισθοῦντο",
+"old": "V.IMI3S",
+"new": "V.IMI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "2Chr 31:16",
+"i": 23,
+"form": "διατάξεως",
+"old": "N.GPF",
+"new": "N.GSF",
+"why": "-εως is genitive singular"
+},
+{
+"ref": "2Chr 32:27",
+"i": 24,
+"form": "ἀρώματα",
+"old": "N.APM",
+"new": "N.APN",
+"why": "nouns in -μα(τος) are neuter"
+},
+{
+"ref": "2Chr 34:16",
+"i": 14,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "2Esdr 7:17",
+"i": 1,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Jdt 2:8",
+"i": 4,
+"form": "πληρώσουσιν",
+"old": "V.FAI3S",
+"new": "V.FAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Jdt 4:15",
+"i": 17,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "TobBA 1:7",
+"i": 1,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobBA 1:7",
+"i": 16,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobBA 1:8",
+"i": 3,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobBA 1:17",
+"i": 3,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobS 1:7",
+"i": 1,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobS 1:8",
+"i": 1,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobS 1:8",
+"i": 17,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobS 1:17",
+"i": 3,
+"form": "ἐδίδουν",
+"old": "V.IMI1S",
+"new": "V.IAI1S",
+"why": "ἐδίδουν is active (middle ἐδιδόμην) (Wiktionary + form)"
+},
+{
+"ref": "TobS 14:15",
+"i": 49,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "1Macc 8:18",
+"i": 3,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "1Macc 12:16",
+"i": 10,
+"form": "Ῥωμαίους",
+"old": "N.DPM",
+"new": "N.APM",
+"why": "-ους is accusative plural"
+},
+{
+"ref": "2Macc 4:42",
+"i": 19,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Macc 4:47",
+"i": 21,
+"form": "ἀκατάγνωστοι",
+"old": "A.DPM",
+"new": "A.NPM",
+"why": "-οι is nominative plural"
+},
+{
+"ref": "2Macc 6:16",
+"i": 3,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "2Macc 9:10",
+"i": 13,
+"form": "τὸ",
+"old": "RA.ASM",
+"new": "RA.ASN",
+"why": "the article form τὸ is ASN (case-number-gender)"
+},
+{
+"ref": "2Macc 10:30",
+"i": 17,
+"form": "τοξεύματα",
+"old": "N.APM",
+"new": "N.APN",
+"why": "nouns in -μα(τος) are neuter"
+},
+{
+"ref": "2Macc 11:16",
+"i": 6,
+"form": "ἐπιστολαὶ",
+"old": "N.APF",
+"new": "N.NPF",
+"why": "-αι is nominative plural (accusative is -ας)"
+},
+{
+"ref": "2Macc 12:5",
+"i": 8,
+"form": "ὠμότητα",
+"old": "N.APM",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "2Macc 12:40",
+"i": 8,
+"form": "ἱερώματα",
+"old": "N.APM",
+"new": "N.APN",
+"why": "nouns in -μα(τος) are neuter"
+},
+{
+"ref": "2Macc 14:18",
+"i": 20,
+"form": "ὑπευλαβεῖτο",
+"old": "V.IAI3P",
+"new": "V.IAI3S",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "3Macc 6:35",
+"i": 2,
+"form": "Ιουδαῖοι",
+"old": "N.DPM",
+"new": "N.NPM",
+"why": "-οι is nominative plural"
+},
+{
+"ref": "Ps 40:3",
+"i": 7,
+"form": "μακαρίσαι",
+"old": "V.AMD2S",
+"new": "V.AAO3S",
+"why": "μακαρίσαι is aorist optative 3rd sg (middle imperative μακάρισαι) (Wiktionary + form)"
+},
+{
+"ref": "Ps 49:3",
+"i": 5,
+"form": "παρασιωπήσεται",
+"old": "V.FMI3P",
+"new": "V.FMI3S",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Ps 65:11",
+"i": 8,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Ps 67:24",
+"i": 4,
+"form": "πούς",
+"old": "N.ASM",
+"new": "N.NSM",
+"why": "πούς is nominative (acc. πόδα) (Wiktionary + form)"
+},
+{
+"ref": "Ps 77:51",
+"i": 2,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Ps 78:9",
+"i": 17,
+"form": "ἱλάσθητι",
+"old": "V.APS2S",
+"new": "V.APD2S",
+"why": "-θητι is the aorist passive imperative 2nd singular ending"
+},
+{
+"ref": "Ps 84:13",
+"i": 5,
+"form": "χρηστότητα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Ps 94:2",
+"i": 0,
+"form": "προφθάσωμεν",
+"old": "V.AAS1S",
+"new": "V.AAS1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Ps 108:3",
+"i": 2,
+"form": "μίσους",
+"old": "N.GPN",
+"new": "N.GSN",
+"why": "-ους is genitive singular of a neuter -ος noun"
+},
+{
+"ref": "Ps 108:18",
+"i": 10,
+"form": "τὰ",
+"old": "RA.ASN",
+"new": "RA.APN",
+"why": "the article form τὰ is APN (case-number-gender)"
+},
+{
+"ref": "Ps 141:1",
+"i": 4,
+"form": "τῷ",
+"old": "RA.GSN",
+"new": "RA.DSN",
+"why": "the article form τῷ is DSN (case-number-gender)"
+},
+{
+"ref": "Ps 141:4",
+"i": 1,
+"form": "τῷ",
+"old": "RA.GSN",
+"new": "RA.DSN",
+"why": "the article form τῷ is DSN (case-number-gender)"
+},
+{
+"ref": "Ps 151:1",
+"i": 28,
+"form": "ἐποίμαινον",
+"old": "V.IAI1P",
+"new": "V.IAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Odes 2:17",
+"i": 8,
+"form": "ᾔδεισαν",
+"old": "V.XAI3P",
+"new": "V.YAI3P",
+"why": "ᾔδεισαν is pluperfect (Wiktionary + form)"
+},
+{
+"ref": "Odes 2:17",
+"i": 15,
+"form": "ᾔδεισαν",
+"old": "V.XAI3P",
+"new": "V.YAI3P",
+"why": "ᾔδεισαν is pluperfect (Wiktionary + form)"
+},
+{
+"ref": "Odes 5:11",
+"i": 7,
+"form": "ᾔδεισαν",
+"old": "V.XAI3P",
+"new": "V.YAI3P",
+"why": "ᾔδεισαν is pluperfect (Wiktionary + form)"
+},
+{
+"ref": "Prov 3:26",
+"i": 14,
+"form": "σαλευθῇς",
+"old": "V.APP2S",
+"new": "V.APS2S",
+"why": "finite -θῇς = aorist passive subjunctive 2nd singular"
+},
+{
+"ref": "Prov 9:6",
+"i": 3,
+"form": "ζήσεσθε",
+"old": "V.FMI3P",
+"new": "V.FMI2P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Prov 9:17",
+"i": 3,
+"form": "ἅψασθε",
+"old": "V.AMS2P",
+"new": "V.AMD2P",
+"why": "unaugmented aorist middle -σασθε = imperative 2nd plural"
+},
+{
+"ref": "Eccl 3:17",
+"i": 10,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "Eccl 6:6",
+"i": 15,
+"form": "τὰ",
+"old": "RA.ASM",
+"new": "RA.APN",
+"why": "the article form τὰ is APN (case-number-gender)"
+},
+{
+"ref": "Song 5:1",
+"i": 25,
+"form": "φάγετε",
+"old": "V.FAI2P",
+"new": "V.AAD2P",
+"why": "φάγετε is aorist imperative (the future is φάγεσθε)"
+},
+{
+"ref": "Job 9:9",
+"i": 2,
+"form": "Πλειάδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Job 14:12",
+"i": 15,
+"form": "ἐξυπνισθήσονται",
+"old": "V.FPI3S",
+"new": "V.FPI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Job 24:19",
+"i": 8,
+"form": "ἀγκαλίδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Job 26:14",
+"i": 7,
+"form": "ἰκμάδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Job 33:20",
+"i": 0,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Job 33:27",
+"i": 8,
+"form": "συνετέλουν",
+"old": "V.IAI1P",
+"new": "V.IAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Job 36:29",
+"i": 5,
+"form": "ἰσότητα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Job 39:6",
+"i": 10,
+"form": "ἁλμυρίδα",
+"old": "N.APN",
+"new": "N.ASF",
+"why": "ἁλμυρίδα is accusative singular feminine (Wiktionary + form)"
+},
+{
+"ref": "Job 40:11",
+"i": 4,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Job 41:18",
+"i": 10,
+"form": "θώρακα",
+"old": "N.APM",
+"new": "N.ASM",
+"why": "θώρακα is accusative singular (Wiktionary + form)"
+},
+{
+"ref": "Wis 11:13",
+"i": 2,
+"form": "ἤκουσαν",
+"old": "V.AAI3S",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Wis 14:21",
+"i": 20,
+"form": "περιέθεσαν",
+"old": "V.AAI3S",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 2:15",
+"i": 4,
+"form": "ἀπειθήσουσιν",
+"old": "V.FAI3S",
+"new": "V.FAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 13:22",
+"i": 7,
+"form": "ἐδικαίωσαν",
+"old": "V.AAI3S",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 14:4",
+"i": 13,
+"form": "τρυφήσουσιν",
+"old": "V.FAI3S",
+"new": "V.FAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 16:18",
+"i": 15,
+"form": "σαλευθήσονται",
+"old": "V.FPI3S",
+"new": "V.FPI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 21:4",
+"i": 3,
+"form": "ἐρημώσουσιν",
+"old": "V.FAI3S",
+"new": "V.FAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 33:27",
+"i": 4,
+"form": "κάμψουσιν",
+"old": "V.FAI3S",
+"new": "V.FAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 43:12",
+"i": 7,
+"form": "ἐτάνυσαν",
+"old": "V.AAI3S",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Sir 43:16",
+"i": 7,
+"form": "θελήματι",
+"old": "N.DPN",
+"new": "N.DSN",
+"why": "-ματι is dative singular"
+},
+{
+"ref": "PsSol 4:7",
+"i": 6,
+"form": "ἀνθρωπαρέσκων",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural"
+},
+{
+"ref": "PsSol 8:9",
+"i": 7,
+"form": "παροργισμῷ",
+"old": "N.GPM",
+"new": "N.DSM",
+"why": "-ῳ is dative singular"
+},
+{
+"ref": "PsSol 8:26",
+"i": 0,
+"form": "ἐδικαιώσαμεν",
+"old": "V.AAI1S",
+"new": "V.AAI1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "PsSol 9:10",
+"i": 10,
+"form": "ἐλπιοῦμεν",
+"old": "V.FAI1S",
+"new": "V.FAI1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "PsSol 17:15",
+"i": 8,
+"form": "μέσῳ",
+"old": "A.GPN",
+"new": "A.DSN",
+"why": "-ῳ is dative singular"
+},
+{
+"ref": "PsSol 18:2",
+"i": 11,
+"form": "τὰ",
+"old": "RA.ASN",
+"new": "RA.APN",
+"why": "the article form τὰ is APN (case-number-gender)"
+},
+{
+"ref": "Amos 4:9",
+"i": 3,
+"form": "πυρώσει",
+"old": "N.DPF",
+"new": "N.DSF",
+"why": "-σει is dative singular"
+},
+{
+"ref": "Zech 7:14",
+"i": 13,
+"form": "ἀφανισθήσεται",
+"old": "V.FPI3P",
+"new": "V.FPI3S",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Zech 12:11",
+"i": 4,
+"form": "μεγαλυνθήσεται",
+"old": "V.FPI3P",
+"new": "V.FPI3S",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Isa 7:19",
+"i": 23,
+"form": "ῥαγάδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Isa 8:3",
+"i": 1,
+"form": "προσῆλθον",
+"old": "V.AAI1P",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Isa 13:18",
+"i": 0,
+"form": "τοξεύματα",
+"old": "N.APM",
+"new": "N.APN",
+"why": "nouns in -μα(τος) are neuter"
+},
+{
+"ref": "Isa 16:9",
+"i": 28,
+"form": "πεσοῦνται",
+"old": "V.FMI3S",
+"new": "V.FMI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Isa 23:9",
+"i": 11,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Isa 26:14",
+"i": 19,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Isa 30:22",
+"i": 12,
+"form": "λικμήσεις",
+"old": "V.FAI2P",
+"new": "V.FAI2S",
+"why": "-σεις is 2nd person singular"
+},
+{
+"ref": "Isa 37:4",
+"i": 0,
+"form": "εἰσακούσαι",
+"old": "V.AAS3S",
+"new": "V.AAO3S",
+"why": "-σαι with this accent is aorist optative 3rd sg (subjunctive -σῃ) (Wiktionary + form)"
+},
+{
+"ref": "Isa 59:17",
+"i": 4,
+"form": "θώρακα",
+"old": "N.APM",
+"new": "N.ASM",
+"why": "θώρακα is accusative singular (Wiktionary + form)"
+},
+{
+"ref": "Isa 60:9",
+"i": 25,
+"form": "τὸ",
+"old": "RA.ASM",
+"new": "RA.ASN",
+"why": "the article form τὸ is ASN (case-number-gender)"
+},
+{
+"ref": "Isa 66:12",
+"i": 18,
+"form": "τὰ",
+"old": "RA.NSN",
+"new": "RA.NPN",
+"why": "the article form τὰ is NPN (case-number-gender)"
+},
+{
+"ref": "Jer 2:20",
+"i": 18,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Jer 7:21",
+"i": 12,
+"form": "φάγετε",
+"old": "V.FAI2P",
+"new": "V.AAD2P",
+"why": "φάγετε is aorist imperative (the future is φάγεσθε)"
+},
+{
+"ref": "Jer 8:14",
+"i": 13,
+"form": "ἀπορριφῶμεν",
+"old": "V.APS1S",
+"new": "V.APS1P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Jer 13:11",
+"i": 19,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Jer 22:15",
+"i": 1,
+"form": "βασιλεύσεις",
+"old": "V.AAS2S",
+"new": "V.FAI2S",
+"why": "-σεις is future indicative, not aorist subjunctive (-σῃς)"
+},
+{
+"ref": "Jer 32:23",
+"i": 10,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Jer 36:5",
+"i": 8,
+"form": "φάγετε",
+"old": "V.FAI2P",
+"new": "V.AAD2P",
+"why": "φάγετε is aorist imperative (the future is φάγεσθε)"
+},
+{
+"ref": "Jer 36:27",
+"i": 4,
+"form": "συνελοιδορήσατε",
+"old": "V.AAI3P",
+"new": "V.AAI2P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Jer 43:25",
+"i": 6,
+"form": "ὑπέθεντο",
+"old": "V.AMI3S",
+"new": "V.AMI3P",
+"why": "-θεντο is 3rd plural (Wiktionary + form)"
+},
+{
+"ref": "Lam 1:22",
+"i": 14,
+"form": "ἐπιφυλλίδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Lam 2:20",
+"i": 13,
+"form": "ἐπιφυλλίδα",
+"old": "N.APF",
+"new": "N.ASF",
+"why": "-τητα/-αδα/-ιδα is accusative singular"
+},
+{
+"ref": "Lam 4:6",
+"i": 15,
+"form": "ἐπόνεσαν",
+"old": "V.AAI3S",
+"new": "V.AAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Ezek 10:9",
+"i": 6,
+"form": "εἱστήκεισαν",
+"old": "V.YAI3S",
+"new": "V.YAI3P",
+"why": "person/number follows from the ending"
+},
+{
+"ref": "Ezek 20:28",
+"i": 16,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "Ezek 24:10",
+"i": 9,
+"form": "τακῇ",
+"old": "V.PAS3S",
+"new": "V.APS3S",
+"why": "τακῇ is aorist passive subjunctive (Wiktionary + form)"
+},
+{
+"ref": "Ezek 24:11",
+"i": 13,
+"form": "τακῇ",
+"old": "V.PAS3S",
+"new": "V.APS3S",
+"why": "τακῇ is aorist passive subjunctive (Wiktionary + form)"
+},
+{
+"ref": "Ezek 40:5",
+"i": 16,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:7",
+"i": 21,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:9",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:9",
+"i": 15,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:11",
+"i": 8,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:11",
+"i": 15,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:12",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:12",
+"i": 17,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:15",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:21",
+"i": 29,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:21",
+"i": 35,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:25",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:25",
+"i": 19,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:48",
+"i": 14,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:48",
+"i": 20,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:48",
+"i": 28,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:48",
+"i": 37,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:48",
+"i": 41,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:49",
+"i": 5,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 40:49",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:1",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:1",
+"i": 16,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:2",
+"i": 5,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:2",
+"i": 11,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:2",
+"i": 15,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:2",
+"i": 23,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:2",
+"i": 28,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:3",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:3",
+"i": 18,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:3",
+"i": 25,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:3",
+"i": 29,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:4",
+"i": 6,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:4",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:5",
+"i": 6,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:5",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:9",
+"i": 7,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:10",
+"i": 6,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:11",
+"i": 29,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:12",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:13",
+"i": 6,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:13",
+"i": 19,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:14",
+"i": 11,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:22",
+"i": 2,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:22",
+"i": 10,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 41:22",
+"i": 15,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 42:4",
+"i": 5,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 42:8",
+"i": 12,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 42:8",
+"i": 21,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 42:20",
+"i": 18,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 43:14",
+"i": 14,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 43:15",
+"i": 3,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 43:16",
+"i": 3,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 43:17",
+"i": 3,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 46:22",
+"i": 9,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "Ezek 46:22",
+"i": 13,
+"form": "πηχῶν",
+"old": "N.DPM",
+"new": "N.GPM",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "BelOG 1:15",
+"i": 14,
+"form": "ψευδοθυρίδων",
+"old": "N.DPF",
+"new": "N.GPF",
+"why": "-ων is genitive plural, not dative"
+},
+{
+"ref": "DanOG 6:13a",
+"i": 5,
+"form": "τοῖς",
+"old": "RA.GPM",
+"new": "RA.DPM",
+"why": "the article form τοῖς is DPM (case-number-gender)"
+},
+{
+"ref": "DanTh 6:16",
+"i": 15,
+"form": "πᾶν",
+"old": "A.ASM",
+"new": "A.ASN",
+"why": "πᾶν is neuter (masc. acc. would be πάντα) (Wiktionary + form)"
+},
+{
+"ref": "SusOG 1:13/14",
+"i": 20,
+"form": "τὸν",
+"old": "RA.ASN",
+"new": "RA.ASM",
+"why": "the article form τὸν is ASM (case-number-gender)"
+},
+{
+"ref": "SusOG 1:28",
+"i": 11,
+"form": "θανατώσουσιν",
+"old": "V.AAS3P",
+"new": "V.FAI3P",
+"why": "-σουσιν is future indicative, not aorist subjunctive (-σωσιν)"
+},
+{
+"ref": "SusOG 1:33",
+"i": 1,
+"form": "ἐκλαίοσαν",
+"old": "V.IAI3S",
+"new": "V.IAI3P",
+"why": "person/number follows from the ending"
+}
+]

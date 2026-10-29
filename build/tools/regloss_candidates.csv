@@ -1,0 +1,269 @@
+lex,count,lemma,pos,old,proposed,tbesg_senses,lsj_senses
+709436,88444,ὁ,"Pronouns, Noun",the,the; this; who,"he (she, it), his | the one . . . the other | but he | the","the following | sa, sā | sá, sú"
+704639,14316,ἐν,"Adverb, Preposition",in,in; on; among,"in, within, on, at, by, among | in my Father's house | with | to God and Christ","in, into | in the district of | at the school of"
+704105,7470,εἰς,Preposition,into; for,toward,"into, unto, to, upon, towards, for, among | of entrance into | to | towards",into | into the territory of | before
+705080,7313,ἐπί,Preposition,in; on,upon; to; against,"on, upon | over | at, by | in the presence of, before",being upon | supported upon a surface | point
+704093,6832,εἰμί,Verbs,be,be,"to be | to be, exist | to be, happen, take place | to be present, be",exist | in being | lived
+711945,6398,σοῦ,Pronouns,of you; your,of you,"self | in that hour | he, she, it | the same","thou | thou at least, for thy part | you two, both of you",drop: your
+709032,4651,μου,Pronouns,of me; mine,of me,"I | I am | what have we in common | and I, even I, I also","I at least, for my part, indeed, for myself | we two | asmā´n",drop: mine
+701425,4147,ἀπό,Preposition,from; away,away from,from | Of separation and cessation | of motion from a place | since,"ap-ehtre | af, cef, of | from"
+704132,3831,ἐκ,Preposition,from; out of,out from,"from out of, from | from out of, from among, from | of motion, out of, forth from, off from | Of change from one place or condition to another","from out of | from | out of, forth from"
+702580,3443,βασιλεύς,Noun,monarch; king,king,a king,"king, chief | captain | judge",drop: monarch
+703654,2130,δίδωμι,Verbs,give; deposit,give,"to give | bestow, grant, supply, deliver, commit, yield","give freely | to be ready to give, offer | things offered",drop: deposit
+713091,1691,ὑμῶν,Pronouns,your,of you,,"thou | thou at least, for thy part | you two, both of you"
+702963,1548,γάρ,Particle,for,for,"verily then | in truth, indeed, yea, then, why | for | explicative and epexegetic","yes,.., no | ay doubtless | since, as"
+704018,1524,ἐγώ,Pronouns,I,I; we,"I | I am | what have we in common | and I, even I, I also","I at least, for my part, indeed, for myself | we two | asmā´n"
+705999,1491,ἡμῶν,Pronouns,our,of us,"I | I am | what have we in common | and I, even I, I also","I at least, for my part, indeed, for myself | we two | asmā´n"
+709725,1442,ὁράω,Verbs,view; see,see,"to see | to see, perceive, behold | perceive, discern | to see, take heed, beware","I know | a)ware | see, look",drop: view
+701163,1427,ἄνθρωπος,Noun,person; human,human,"man | generically, a human being, male or female | a merchant | men, people","gods | the men | the ideal man, humanity",drop: person
+703912,1342,ἐάν,"Conjunction, Adverb, Particle",and if; unless,and if,"if haply, if | With other particles","if haply, if | soever",drop: unless
+708076,1336,λαμβάνω,Verbs,take; get,take,"to take, lay hold of | to receive","take | receive | take hold of, grasp, seize",drop: get
+710986,1302,πρόσωπον,Noun,face; ahead of,face,"the face, countenance | facing | form, person | external condition or circumstances","face, countenance | in front, facing | facing, fronting",drop: ahead of
+708236,1239,λόγος,Noun,"word; account, reason",word; account,"a word | a saying, statement, declaration | the word of God | speech, discourse","computation, reckoning | account | accounts",drop: reason
+709666,1049,ὄνομα,Noun,name; reputation,name,"the name | cause, ground, reason | pretext | an individual, a person",name | by name | a name,drop: reputation
+704106,1034,εἷς,"Adjective, Indeclinable Number, Noun",one,one,"one | a single (one) | one, alone | one and the same","one, one | single man | single"
+708653,902,μέγας,Adjective,great; loud,great,"great | of external form, bodily size, measure, extent | Of intensity and degree | Of rank","full-grown | elder | vast, high",drop: loud
+709995,881,παρά,Preposition,from; by,from; with; beside,"beside | from the side of, from beside, from | by the side of, beside, by, with | among","beside | from the side of, from beside, from | from"
+700905,685,ἀναβαίνω,Verbs,step up; ascend,ascend,"to go up, ascend | of persons | of things, to rise, spring up, come up","go up, mount | go up to | goes up among",drop: step up
+700900,653,ἄν,Particle,"(particle of contingency, often untranslated; -ever)",-ever),"ever, soever | until | as soon as | Elliptical constructions",he came | he would have come | he might have come,drop: (particle of contingency; often untranslated
+701862,643,ἄρχων,"Noun, Verbs",ruling; ruler,ruler,"a ruler, chief","ruler, commander | chief, king | chief magistrate",drop: ruling
+712903,611,τόπος,Noun,place; locality,place,"place | station, occasion, opportunity or power","place, region | district | region",drop: locality
+704823,571,ἐνώπιος,"Adjective, Adverb, Preposition","before, in the presence of",face face,,"facing, to the front | face to face | shew"
+711246,546,ῥῆμα,Noun,"word; thing, matter",word,a word | instruction or command,"that which is said | spoken, word, saying | words",drop: thing; matter
+712125,490,στόμα,Noun,mouth; edge,mouth,the mouth | for speech,mouth | the very jaws | the mouth as the organ of speech,drop: edge
+707047,485,καιρός,Noun,season; opportunity,season,"time, season","due measure, proportion, fitness | distinction | point",drop: opportunity
+713532,463,φοβέω,Verbs,afraid; fear,fear,"to be seized with fear, be affrighted, fear","put to flight | terrify, alarm | to frighten",drop: afraid
+709446,453,ὅδε,Pronouns,this (here); as follows,this (here),"referring prop, to what is present, can be seen or pointed out",this | nearer | more remote,drop: as follows
+702577,437,βασιλεία,Noun,realm; kingdom,kingdom,"sovereignty, royal power, dominion | a kingdom | the royal majesty | the king","kingdom, dominion | hereditary monarchy | the age of monarchies",drop: realm
+707639,432,κεφαλή,Noun,head; top,head,the head,head | in stature | down over the head,drop: top
+704654,432,ἐναντίον,"Adverb, Preposition",next to; before,before,"over against, opposite, contrary | opposed, hostile | before, in the presence of","opposite | on the opposite side, opposite | fronting, face to face",drop: next to
+705420,386,ἔρημος,"Adjective, Noun","desert, wilderness; desolate",desert; desolate,"solitary, lonely, desolate, deserted","desolate, lonely, solitary | desert parts | empty",drop: wilderness
+703817,384,δοῦλος,"Adjective, Noun","slave, servant",slave,"in bondage to, subject to | a slave | a female slave, bondmaid | a slave, bond-man",born bondman | slave | one made a slave,drop: servant
+707202,352,καταβαίνω,Verbs,step down; descend,step down,Of persons | Of things,come down from | came down from | came down,drop: descend
+703838,334,δύναμαι,Verbs,able; can,able,"to be able, have power | whether by personal ability, permission, or opportunity | to be able to do something | to be able, capable, powerful","to be able, strong enough | canst | powerful, mighty",drop: can
+710133,329,παρεμβολή,Noun,encampment; barracks,barracks,"an army in battle array | barracks, soldiers' quarters | of siege works, to cast up","insertion, interpolation | parenthesis | drawing up in battle-order",drop: encampment
+703395,326,δή,Particle,in fact,so,"now therefore, then, verily, certainly | With verbs | With pronouns | now this is he who","at this | that point | now, then, already"
+700706,317,ἀλλόφυλος,"Adjective, Noun",foreigner; (LXX) Philistine,foreigner,of another race | a Gentile,"of another tribe, foreign | settled in another nome | alien to man, wild",drop: (LXX) Philistine
+711844,310,σκεῦος,Noun,vessel; jar,vessel,"a vessel, implement | to procure for oneself, get, gain, acquire",vessel | implement of any kind | implements,drop: jar
+701829,309,ἄρτος,Noun,bread; loaves,bread,"bread, a loaf | bread of the setting forth | food | to eat",cake | loaf of wheat-bread | loaf,drop: loaves
+710707,303,πούς,Noun,foot; pace,foot,"a foot, both of men and beasts",foot | talons | arms,drop: pace
+709728,303,ὀργή,Noun,passion; temperament,temperament,"anger, wrath | of men | of God | of the effect of God's anger","natural impulse | propensity | temperament, disposition, mood",drop: passion
+710965,302,προστίθημι,Verbs,add; continue,add,"to add, join to, give in addition","put to | put to, close | holding",drop: continue
+705910,298,ζωή,Noun,life; vitality,life,life | of natural life,"living | substance, property | life, existence",drop: vitality
+711751,291,σήμερον,Adverb,today; present,today,to-day,to-day | [kcirc]yo-,drop: present
+710529,287,πλῆθος,Noun,multitude; quantity,multitude,"a great number, a multitude | of things | of persons","great number, multitude | mass | greater number",drop: quantity
+710014,277,παραδίδωμι,Verbs,betray; give over,give over,"to give | hand over | to commit, commend | deliver up","give, hand over to another, transmit | hand | down",drop: betray
+709597,275,ὅλος,Adjective,whole; wholly,whole,"of persons and things, whole, entire, complete | an entire man","whole, entire, complete in all its parts | whole | full",drop: wholly
+700209,273,ἄγω,Verbs,lead; pass,lead,"to lead, bring, carry | to lead, guide, impel | to spend | keep","lead, carry, fetch, bring | taking | take with one",drop: pass
+704577,268,ἐμοί,Pronouns,me,I,"I | I am | what have we in common | and I, even I, I also","I at least, for my part, indeed, for myself | we two | asmā´n"
+705535,267,ἕτερος,Adjective,different; alternate,other,other | the other | the one . . . the other | the next,the other of two | left | one of the
+704653,263,ἔναντι,"Adverb, Preposition",next to; in the presence of,in the presence of,before,in the presence of,drop: next to
+707934,262,κτῆνος,Noun,livestock; animal,animal,,flocks and herds | beast | an ox,drop: livestock
+700921,260,ἀναγγέλλω,Verbs,announce,report,"to bring back word, report | declare","carry back tidings of, report | tell of | proclaim"
+709492,258,οἶδα,Verbs,aware,know,I know | be assured | he is versed in | cunning in the use of,"know | knew | know, have knowledge of, be acquainted with"
+708525,256,μαρτύριον,Noun,evidence; testimony,testimony,"a testimony, witness, proof","testimony, proof | here is a proof, namely | the tables of the Decalogue",drop: evidence
+710747,254,πρό,Preposition,before; ahead of,before,before | of place | of time | of preference,"before, forth | before, in front of | in front of",drop: ahead of
+703051,254,γεννάω,Verbs,father; born,born,"to beget | to bring forth, bear | to be begotten | to be born",beget | parents | sprung,drop: father
+704108,253,εἰσακούω,Verbs,heed; listen to,listen to,"to listen to | to obey | to listen, assent to | to be heard","hearken | give ear to | give way, yield",drop: heed
+710540,251,πλήν,"Conjunction, Adverb, Preposition",besides; only,only,"yet, howbeit, only","except, save | short of | save in respect of",drop: besides
+712853,245,τίκτω,Verbs,give birth; produce,give birth,,"bring into the world, engender | beget | bring forth",drop: produce
+705956,245,ἥκω,Verbs,here,come; be present,,"to have come, be present | had come | shall have come"
+710462,244,πῆχυς,"Adjective, Noun",forearm; foot and a half,forearm,"As a measure of length, a cubit","forearm | ulna | centrepiece, which joined the two horns of the bow",drop: foot and a half
+714011,244,χώρα,Noun,territory; estate,country,"a land, country, region | land, property",space | room in which a thing is | partly occupied space
+712980,243,τρόπος,Noun,manner; by means,manner,"a way, manner, fashion | Of persons, manner of life, character","turn, direction, way | way, manner, fashion, guise | as we are",drop: by means
+701909,242,ἀσεβής,Adjective,irreverent,ungodly,"un­godly, impious","ungodly, unholy, profane, sacrilegious | against"
+704802,240,ἐντολή,Noun,direction; injunction,injunction,"generally, a charge, injunction, order, command | of God's commandments | of things commanded Christ by the Father | of the precepts of Christ","injunction, order, command | orders, commands | ordinance",drop: direction
+711041,236,πρῶτος,Adjective,first; foremost,first,"first | of Time or Place | first of all | chief, principal",,drop: foremost
+712520,235,συντρίβω,Verbs,fracture; smash,break,"to shatter, break in pieces | to break, crush, bruise",rub together | together | grind
+707097,233,καλός,Adjective,fine; fair,fair,"fair, beautiful | goodly | good, excellent | good","beautiful | beauteous | fair, shapely",drop: fine
+712372,231,σύν,Preposition,with; [definite object marker],with,"With, together with | with | together | altogether","with | Beiträge zur Lehre von den griechischen Präpositionen | in company with, together with"
+702214,230,ἀφίστημι,Verbs,distance; keep distance,keep distance,"to move to revolt | to stand off, depart from, withdraw from | to withdraw oneself from, absent oneself from | fall away, apostatize","put away, remove, keep out of the way | hinder from | frustrate",drop: distance
+700271,227,ἀδικία,Noun,injury; injustice,injustice,"injustice | unrighteousness, iniquity | an unrighteous act","wrongdoing, injustice | wrongful act, offence",drop: injury
+708730,223,μέν,Particle,first of all,on the other hand,"indeed . . . but | one . . . another | so then, rather, nay rather","indeed, of a truth | indeed | this time"
+703411,220,δῆμος,Noun,public,people,a district | country | the common people | the people,"district, country, land | the land | people, inhabitants"
+710735,219,πρεσβύτερος,"Adjective, Noun",senior; older,elder: Elder,"of age, elder | Of dignity, rank or office | among Jews | among Christians","council of elders, presbytery | honour | privilege of an elder"
+701449,219,ἀποδίδωμι,Verbs,render; surrender,render,"to give up or back, restore, return | to render what is due, to pay | to sell","give up | back, restore, return | render what is due, pay",drop: surrender
+707011,216,καθίστημι,Verbs,establish; appoint,appoint,"to set down | to bring down to a place | to set in order, appoint, make, constitute",set down | bring | to land,drop: establish
+706772,214,Ἰουδαῖος,"Noun, Adjective",Judean,Jew,Jewish | a Jew | Judæa,a Jewish man | a Jewish woman
+712510,213,συντελέω,Verbs,consummate; finish,finish,"to complete, finish, bring to an end | to effect, accomplish, bring to fulfilment","bring to an end, complete | make up the whole | make up the number",drop: consummate
+709801,210,ὅταν,Adverb,when; once,when,whenever | when,whenever | since | when,drop: once
+707767,202,κοιμάω,Verbs,doze; fall asleep,fall asleep,to fall asleep,"lull, put to sleep | put to bed | still, calm",drop: doze
+713534,199,φόβος,Noun,fear; awe,fear,"That which causes flight, fear, dread, terror",panic flight | to flight | panic fear,drop: awe
+700153,196,ἁγιάζω,Verbs,hallow,sanctify,"to make holy, consecrate, sanctify | to dedicate, separate,  set apart for God | to purify | make conformable in character to such dedication",
+701071,192,ἀνατολή,Noun,springing up; east,east,"a rising | the sun-rising, the east","rising | the quarter of sunrise, east | ascendant",drop: springing up
+705153,189,ἐπικαλέω,Verbs,invoke; nickname,invoke,"to call, name, surname | to call upon, invoke, appeal to",summon | invoke | over,drop: nickname
+702137,187,αὐλή,Noun,courtyard; fold,courtyard,"an open courtyard before a house, hence, an enclosure in the open, a sheepfold | the court, courtyard, round which a house is built | a palace",open court | courtyard | steading,drop: fold
+707000,182,κάθημαι,Verbs,sit; settle,sit,"to sit, be seated","to be seated, sit | as he sat there | sate",drop: settle
+714164,181,ὥστε,"Conjunction, Adverb, Particle",as such; that,that,"expressing result, so as to | so that | so then, therefore","as being, inasmuch as | since it was | the actual",drop: as such
+710006,179,παραγίνομαι,Verbs,happen by; come by/to/along,come by/to/along,"to come, come up, arrive","to be beside, by | near | attended",drop: happen by
+707724,179,κληρονομέω,Verbs,inherit; heir,inherit,to inherit,"inherit | acquire, obtain | receive possession of",drop: heir
+713781,178,χεῖλος,Noun,lip; shore,lip,a lip,with the lips only | the lips | on the surface only,drop: shore
+702985,176,γέ,Particle,in fact,indeed,"indeed, at least, even | used alone","at least, at any rate | iron | have"
+710848,175,προσάγω,Verbs,lead toward; head toward,lead toward,to bring or lead | to summon,"bring to | upon | furnish, supply",drop: head toward
+702792,175,βουλή,Noun,intent,plan,"counsel, purpose","will, determination | counsel, design | counsel, advice"
+705717,171,εὐφροσύνη,Noun,celebration,joy,"rejoicing, gladness","mirth, merriment | good cheer, festivily | with glad thoughts"
+705250,170,ἐπισκέπτομαι,Verbs,visit; inspect,visit,"to visit with help, to care for",pass in review | number,drop: inspect
+712787,165,τέλος,Noun,completion; sales tax,sales tax,"end | toll, custom, revenue","coming to pass, performance, consummation | fulfilment, execution | result",drop: completion
+709927,164,παιδίον,Noun,toddler; little child,little child,"a young child, a little one",little | young child | a child,drop: toddler
+706176,164,θέλω,Verbs,determine; will,will,"to will, be willing, wish, desire | of his own mere will, by humility",,drop: determine
+700505,163,αἰώνιος,Adjective,eternal; of ages,eternal,"age-long, eternal | of that which is without either beginning or end | of that which is without beginning | of that which is without end","lasting for an age | perpetual, eternal | holding an office",drop: of ages
+703939,160,ἐγγίζω,Verbs,get close; near,near,to bring near | to come near,"bring near, bring up to | approach | to be imminent",drop: get close
+706855,160,ἰσχυρός,Adjective,forceful; severe,strong,"strong, mighty, powerful | of persons, as to body or spirit | of things",strong | hard | indigestible
+704220,160,ἐκκλίνω,Verbs,deviate; avoid,turn from,"to turn aside, turn away | from the right path","bend out of the regular line, bend outwards | away | change the form of"
+707519,159,κατεσθίω,Verbs,consume; eat up,eat up,"to eat up, devour","eat up, devour | corrode | to be gnawed",drop: consume
+710141,158,παρέρχομαι,Verbs,pass; transgress,pass,"to pass, pass by | of persons | of things | to pass away, perish","go by, beside | past, pass by | passed away",drop: transgress
+703814,157,δουλεύω,Verbs,give allegiance; subject,subject,"to be a slave, be subject to, serve","to be a slave | serve, be subject | make oneself a slave",drop: give allegiance
+704838,155,ἐξαιρέω,Verbs,extract; take out,take out,"to take out | to take out for oneself, choose | to deliver",take out | take out for oneself | their,drop: extract
+702743,153,βοάω,Verbs,scream; shout,shout,"to cry, call out | to call on","cry aloud, shout | men ready to shout | roar, howl",drop: scream
+704994,151,ἐπάγω,Verbs,instigate; bring on,bring on,to bring upon,"bring on | set on, urge on | lead on",drop: instigate
+704322,150,ἐκτείνω,Verbs,extend,stretch out,to stretch out or forth,stretch out | offer food | straighten
+707879,150,κρατέω,Verbs,seize; retain,seize,"to get possession of, obtain, take hold of | to hold, hold fast","to be strong, powerful | rule, hold sway | sway",drop: retain
+707054,143,κακία,Noun,badness; vice,badness,"wickedness, depravity, malignity",badness | incapacity | defects,drop: vice
+704368,143,ἐκχέω,Verbs,pour out; drained,pour out,to pour out | to give oneself up to,pour out | is spilt | poured forth his,drop: drained
+713969,140,χρόνος,Noun,time; while,time,time,"time | a definite time, period | chronological",drop: while
+703697,140,δικαίωμα,Noun,"ordinance, statute; righteous act",ordinance; righteous act,an ordinance | a sentence | a righteous act,act of right | duty | amendment of a wrong,drop: statute
+710039,139,παρακαλέω,Verbs,counsel; appeal to,plead; comfort,"to call to | call for, summon | entreat | to invoke, call on, beseech, entreat","call to | call in, send for, summon | invoke"
+708752,138,μέρος,Noun,part; in particular,part,"a part, share, portion","share, portion | allotment | heritage, lot, destiny",drop: in particular
+702211,137,ἀφίημι,Verbs,dismiss; leave,leave,"to send forth, send away, let go | to utter a cry | to remit, forgive | to leave alone, leave, neglect","send forth, discharge | throw oneself | give oneself up",drop: dismiss
+706349,137,θύω,Verbs,immolate; sacrifice,sacrifice,"to sacrifice by slaying a victim, offer sacrifice | to slay, kill","offer by burning | made an offering | sacrifice, slay",drop: immolate
+705030,130,ἐπάνω,"Adverb, Preposition",upon; above,above,"above | of place | of number, more than | of pre-eminence","above, on the upper side | part | upper",drop: upon
+713288,129,ὕψος,Noun,height; on high,height,height,"height | in height | summit, crown",drop: on high
+702795,128,βούλομαι,Verbs,want,plan,"to will, wish, desire, purpose, be minded | of set purpose","will, wish, be willing | wish is will | willed"
+712508,125,συντάσσω,Verbs,coordinate; arrange,arrange,"to prescribe, ordain, arrange","put in order together | draw up, put in array | draw up",drop: coordinate
+700272,125,ἄδικος,Adjective,injurious; unjust,unjust,"unjust | unrighteous, wicked","wrongdoing, unrighteous, unjust | unjust in | towards",drop: injurious
+711076,124,πτωχός,"Noun, Adjective",bankrupt; beggarly,beggarly,a beggar | beggarly | poor,beggar | beggar-woman | beggarly,drop: bankrupt
+710895,122,προσέχω,Verbs,pay attention; beware,watch out,to attach or devote oneself to,"hold to, offer | hold against | apply"
+708882,121,μήποτε,"Adverb, Particle",lest; unless,lest,"never | As interrogative | in indirect questions, whether haply, if haply","never, on no account | never | perhaps",drop: unless
+711889,120,σκότος,Noun,dark,darkness,darkness,"darkness, gloom | darkness | dizziness, vertigo"
+704701,119,ἐνδύω,Verbs,dress in; wear,wear,"to put on oneself, be clothed with | to enter, press into",go into | put on | wear,drop: dress in
+709191,118,ναός,Noun,sanctuary,temple,"The inmost part of a temple, the shrine | generally | the whole temple enclosure","2 Ma.) | temple | inmost part of a temple, shrine"
+704578,114,ἐμός,Adjective,mine; my own,mine,proceeding from or related to me,"mine | mine, of me | possessive",drop: my own
+700933,113,ἀνάγω,Verbs,lead up; head up,lead up,to lead or bring up | to put to sea,"lead up | lead up to the high sea, carry by sea | conduct, carry to",drop: head up
+712481,112,συνίημι,Verbs,comprehend,understand,"to perceive, understand",bring | set together | shot
+713163,110,ὑπερυψόω,Verbs,elevate/lift on high,exalt,"to exalt beyond measure, exalt to the highest place",exalt exceedingly
+711267,109,ῥίπτω,Verbs,fling; disperse,throw; lay down,"to throw, cast, hurl | cast down, prostrate","throw, cast, hurl | throw | prostrate"
+708108,109,λατρεύω,Verbs,employed by,minister,to serve,"work for hire | to be in servitude, serve | to be subject"
+707761,107,κοιλία,Noun,insides; womb,womb,the belly,cavity of the body | thorax with abdomen | thorax,drop: insides
+713104,106,ὑπάρχω,"Verbs, Adjective",happen to be; belong,belong,"to be in existence, be ready, be at hand | to be, prop, expressing continuance of an antecedent state or condition | to belong to | one's belongings, possessions","begin, take the initiative | beginner | take the initiative in, begin",drop: happen to be
+704075,105,εἴδω,Verbs,realize; have idea,have idea,"to have seen or perceived | to know, have knowledge of | to know how | respect, appreciate",to be seen | seem | know,drop: realize
+707531,105,κατισχύω,Verbs,force down; prevail,prevail,"to overpower, prevail against, prevail","overpower, prevail over | to be worsted | have the upper hand, prevail",drop: force down
+705633,101,εὐλογία,Noun,commendation; acclamation,praise,"fair speaking, flattering speech | praise | In LXX and NT | the act of blessing",good or fine language | plausibility | habet
+710450,100,πηγή,Noun,well; fountain,fountain,"a spring, fountain",running water | streams | water,drop: well
+705632,100,εὐλογητός,Adjective,commended; commendable,praiseworthy,blessed,blessed
+709568,100,ὀλίγος,Adjective,few; sparse,few,"of number, quantity, size, few, little, small, slight | a little, almost, all but","little, small | small, low | not copious",drop: sparse
+710563,100,πλοῦτος,Noun,wealth; richness,wealth,"riches, wealth","wealth, riches | treasures | treasure",drop: richness
+710443,100,πέτρα,Noun,cliff; bedrock,cliff,a detached stone or boulder,"rock | cliffs, ledges | rocks",drop: bedrock
+708132,98,λειτουργέω,Verbs,employed; minister,minister,"to serve the State, do a service, serve",serve | offices | public services performed,drop: employed
+701389,97,ἀπέναντι,"Adverb, Preposition",before; contrary,before,"over against | before, in the presence of | against","opposite | before, in the presence of | against",drop: contrary
+706969,97,κἀγώ,Conjunction,and I,and I,"I | I am | what have we in common | and I, even I, I also",
+713406,95,φείδομαι,Verbs,spare; refrain,spare,to spare,"spare | not destroy | spare, be merciful",drop: refrain
+706278,95,θνήσκω,Verbs,die; departed,die,to die | to be dead,to be dead | dead | be put to death,drop: departed
+706982,94,καθαιρέω,Verbs,take down; demolish,take down,"to take down | to put down by force, pull down, destroy | to refute",take down | take | down,drop: demolish
+702182,92,ἀφανίζω,Verbs,obscure; hide,hide,to destroy | to disfigure | to vanish,"make unseen, hide | hush up | lose sight of",drop: obscure
+707956,92,κυκλόθεν,"Adverb, Preposition",circling; from all around,from all around,"from all sides, round about",from all around,drop: circling
+708647,91,μεγαλύνω,Verbs,enlarge; magnify,magnify,"to make great | to declare great, extol, magnify","make great | powerful, exalt | gain great glory",drop: enlarge
+707243,91,καταδιώκω,Verbs,hunt down; drive hard,drive hard,,"follow hard upon, pursue closely | try to gain | search for",drop: hunt down
+700608,91,ἄκρον,Adjective,top; tip,top,highest | extreme | the top | extremity,"highest | farthest point | mountain top, peak",drop: tip
+709926,88,παιδεύω,Verbs,discipline,instruct,"to teach, instruct | to chasten, correct, chastise","bring up | rear a child | train and teach, educate"
+700962,87,ἀναιρέω,Verbs,eliminate; take up,take up,"to take up | to take away, make an end of, destroy | of things | of persons, to kill","take up | having raised | take up and carry off, bear away",drop: eliminate
+709590,87,ὁλοκαύτωσις,Noun,holocaust; whole burnt offering,whole burnt offering,,sacrifice of a burntoffering,drop: holocaust
+713351,86,φάραγξ,Noun,gorge,valley,"a chasm, ravine","cleft, chasm | ravine, gully | of the cave"
+705727,86,εὔχομαι,Verbs,wish; make,wish,to pray,pray | to utter | in prayer,drop: make
+704547,86,ἐμβάλλω,Verbs,inject; cast in,cast in,to cast into,throw in | fall into | throw,drop: inject
+712730,85,τάσσω,Verbs,arrange; appoint,appoint,,"draw up in order of battle, form, array, marshal | to be drawn up | in rank and file",drop: arrange
+702791,85,βουλεύω,Verbs,intend; deliberate,deliberate,"to take counsel, deliberate, resolve | to take counsel with oneself, consider | to determine with oneself, resolve","take counsel, deliberate | determine | resolve after deliberation",drop: intend
+709657,85,ὀνειδισμός,"Noun, Adjective",disparaging; reproach,reproach,a reproach,"reproach, Ep. Rom | calumny",drop: disparaging
+705147,84,ἐπιθυμία,Noun,longing; aspiration,longing,"desire, longing | desire, lust","desire, yearning | by passion | appetite",drop: aspiration
+705002,83,ἐπαίρω,Verbs,lift up; rear up,lift up,"to lift up, raise | to be lifted up with pride",lift up and set on | lifted and set | upon,drop: rear up
+709729,83,ὀργίζω,Verbs,impassioned; anger,anger,"to make angry, provoke to anger | to be provoked to anger, be angry","make angry, provoke to anger, irritate | grow angry, be wroth | with",drop: impassioned
+700895,83,ἄμωμος,Adjective,flawless; blameless,blameless,"of sacrificial victims, without blemish | unblemished, faultless",blameless | without blemish | unblemished,drop: flawless
+703624,83,διαφθείρω,Verbs,deteriorate; ruin,ruin,"to destroy utterly | to be destroyed, disabled | to corrupt, deprave","destroy utterly | make away with, kill | destroy, ruin",drop: deteriorate
+707781,81,κοίτη,Noun,lying down; relations,bed,a bed,bedstead | marriage-bed | lair
+710514,81,πλείων,Adjective,more; majority,more,"much, many, great | many | the many | more, greater",,drop: majority
+704974,81,ἐξουσία,Noun,authority; influence,authority,"liberty | power to act | right, authority | jurisdiction","power, authority | permission | freedom permitted",drop: influence
+703641,81,διάψαλμα,Noun,interlude; rest,interlude,,musical interlude,drop: rest
+703052,80,γέννημα,Noun,spawn; product,product,offspring,"that which is produced | born, child | product",drop: spawn
+711849,80,σκήνωμα,Noun,camp; tent,tent,"a tent, tabernacle",quarters | tent | temple,drop: camp
+710108,79,παρατάσσω,Verbs,deploy; arrange,deploy,to draw up one's men in battle-order | to be drawn up along | in order of battle | to stand prepared,"place | post side by side, draw up in battleorder | drew",drop: arrange
+703382,79,δεῦρο,"Adverb, Interjection",come on; this point,come on,"of place | hither | here! come! | hitherto, now",hither | to [have come hither and] be here | here,drop: this point
+707612,78,κενός,Adjective,hollow; empty,empty,"empty, vain | vain, fruitless | of persons, empty-handed",empty | pause | the void of space,drop: hollow
+709782,78,ὅσιος,Adjective,responsible; devout,sacred,"religiously right, right­eous, pious, Holy",hallowed | sanctioned | allowed by the law of God
+711403,78,σαλεύω,Verbs,sway; rock,rock,"to agitate, shake | to unsettle or drive away | to stir up","cause to rock, make to vibrate | oscillate | heartrending",drop: sway
+701362,77,ἅπας,"Adjective, Noun",all at once; everything,all at once,"all, the whole, altogether","quite all, the whole | all together | in all things",drop: everything
+712856,77,τιμή,Noun,honor; value,honor,"a valuing, hence, objectively | a price paid or received | esteem, honour","worship, esteem, honour | honours | due regard",drop: value
+701938,77,ἀσθενέω,Verbs,infirm; ail,be weak: weak,"to be weak, feeble | to be sick | the sick","want of strength, weakness | feebleness, sickliness | disease, sickness"
+705421,76,ἐρημόω,Verbs,desolate; desert,desolate,"to desolate, lay waste","strip bare, desolate, lay waste | bereave | to leave",drop: desert
+711786,76,σίκλος,Noun,shekel; coin,shekel,,shekel | ear-ring,drop: coin
+705069,75,ἐπερωτάω,Verbs,interrogate; inquire of,inquire of,"to in­quire of, consult, question | to beg of, demand of","consult, inquire of | to be questioned, asked | question",drop: interrogate
+713437,75,φημί,Verbs,express; claim,assert,"to declare, say","say, affirm, assert | shall we say of | speak"
+704940,75,ἐξίστημι,Verbs,astonish; beside yourself,beside yourself,"to confound, amaze | to be beside oneself, be mad | to be amazed, confounded","displace | change, alter utterly | drive",drop: astonish
+708575,75,μάταιος,Adjective,superficial,futile,"vain, useless","vain, empty, idle | idle | useless"
+706226,75,θεωρέω,Verbs,observe,see; experience,"to look at, gaze, behold | to see, perceive, discern | Hebraistically, to experience, partake of",to be a | to be sent to consult an oracle | to see
+709340,74,νόμιμος,Adjective,legalities,lawful,"law, customary, prescriptive, established, lawful, rightful | usages, customs | funeral rites","conformable to custom, usage | legitimate | customary, prescriptive"
+703844,74,δυνάστης,Noun,"ruler; mighty one, prince",ruler; prince,"a prince, ruler, potentate","lord, master, ruler | the chief men | petty chief, princelet",drop: mighty one
+712697,74,τάλαντον,Noun,"10,000 dollars; talent",10; talent,"that which is weighed, a talent | a talent in weight | a sum of money, whether gold or silver, equivalent to a talent in weight",balance | pair of scales | scales,drop: 000 dollars
+700114,74,ἀγαλλιάω,Verbs,jump for joy,rejoice,"to glorify | to exult in | to exult, rejoice greatly",rejoice exceedingly | in malam partem
+705083,73,ἐπιβάλλω,Verbs,impose; cast on,cast on,"to cast, lay or put upon | to throw oneself or rush upon | he wept | to fall to one's share",throw | cast upon | throwing on more and more,drop: impose
+710962,73,προστάσσω,Verbs,ordain; order,order,"to give a command, enjoin, appoint",place | post at | attach to,drop: ordain
+701904,73,ἀσέβεια,Noun,irreverence,ungodlinessness,"ungodliness, impiety","ungodliness, impiety | disloyalty to the Emperor"
+705756,72,ἐφίστημι,Verbs,stand over/by; get attention,stand over/by,"to stand upon | to be set over | to stand by, be present, be at hand, come on or upon","set, place upon | set over | to be appointed, instituted",drop: get attention
+701027,72,ἀναπαύω,Verbs,have respite; give relief,give relief,"to give intermission from labour, to give rest, refresh | to take rest, enjoy rest","make to cease, stop | hinder from | give",drop: have respite
+710156,71,παροικέω,Verbs,reside,be a stranger,,dwell beside | dwell along the coasts of | live near
+710294,71,περιβάλλω,Verbs,drape; clothe,clothe,"to throw around or over, put on or over | of siege or defen­sive works | of clothing, to put on, wrap about, clothe with | to have wrapped round one","throw round, about | over, put on | over",drop: drape
+710659,71,πονηρία,Noun,harm; malignancy,evil,"iniquity, wickedness","bad state | condition | wickedness, vice, knavery"
+702976,70,γαστήρ,Noun,stomach; pregnant,belly,the belly | a glutton | the womb | to be with child,"paunch, belly | the hollow | belly"
+700269,70,ἀδικέω,Verbs,injure; unjust to,harm,"do wrong, act wickedly | criminally | to do hurt | to do",to be | do wrong | those who have sinned
+704948,70,ἔξοδος,Noun,exodus,departure,"a going out, departure",promoting the passage
+707873,69,κραταιός,Adjective,dominant,mighty,"strong, mighty","strong, mighty | of power | fierce"
+702202,69,ἁφή,Noun,contact,joint,a joint,"lighting, kindling | lighting | touch"
+702724,69,βίος,Noun,livelihood; lifestyle,livelihood,"period | course of life, life | living, livelihood, means",life | mode of life | manner of living,drop: lifestyle
+707938,68,κτίζω,Verbs,create; set up,create,"In LXX and NT, of God, to create","people | build houses and cities in | found, build",drop: set up
+707021,68,καθότι,"Conjunction, Adverb",in that,as; just as,"according as, just as | because","in what manner | so far as, inasmuch as"
+706786,68,ἱππεύς,Noun,cavalry; rider,horseman,a horseman,one who fights from a chariot | the driver | the hero who fights
+709800,67,ὀσφύς,Noun,loins; waist,loins,the loin,"lion | loins, lower part of the back | loin",drop: waist
+709996,67,παραβαίνω,Verbs,transgress; overstep,transgress,"to turn aside, fall away",go by the side of | stand beside | standing beside,drop: overstep
+709704,67,ὅπλον,Noun,armament; weapon,weapon,"a tool, implement, instrument | arms, weapons","tool, implement | tackle, tackling | ropes, halyards",drop: armament
+707073,66,κακόω,Verbs,do bad; turn bad,harm,"to ill-treat, afflict, distress","maltreat, distress | afflict | the afflicted"
+712011,66,σπεύδω,Verbs,hurry,hasten,to hasten | to desire eagerly,"set going, urge on, hasten | procure quickly, get ready | seek eagerly, strive after"
+707886,66,κραυγή,Noun,cry; outcry,outcry,"crying, outcry, clamour","crying, screaming, shouting | shout of joy",drop: cry
+707323,65,καταλύω,Verbs,dislodge; lodge,lodge,"to destroy, cast down | to overthrow, annul, abrogate","put down, destroy | break | dissolve, break up, put down",drop: dislodge
+704416,65,ἐλέγχω,Verbs,convict; question,convict,"to convict | to reprove, re­buke | to expose","disgrace, put to shame | treat | with contempt",drop: question
+710251,65,πενθέω,Verbs,sad,mourn,,"bewail, lament | mourn, go into mourning | to be mourned for"
+703679,65,διηγέομαι,Verbs,narrate; describe,describe,"to set out in detail, recount, describe","set out in detail, describe | describe",drop: narrate
+705264,65,ἐπίσταμαι,Verbs,well aware; stand over,know; understand,"to know, know of, understand | SYN",know | be able | capable
+704750,64,ἐνισχύω,Verbs,fortify; prevail,prevail,to strengthen,"strengthen, confirm | prevail in | among",drop: fortify
+706201,64,θεράπων,Noun,minister,servant,"an attendant, servant","henchman, attendant | companion in arms, squire | worshipper"
+702149,64,αὔριον,Adverb,tomorrow; next day,tomorrow,to-morrow,to-morrow | tomorrow | on the morrow,drop: next day
+700369,64,ἀθετέω,Verbs,displace; put off,reject,"to revolt | do away with what has been laid down | to set aside, disregard | to reject as spurious","set at naught | deny, disprove | to be struck off a register"
+711346,64,σαβαώθ,Noun,Tsebaoth,hosts,,
+709918,64,πάθος,Noun,experience; emotionalism,passion,"that which befalls one, that which one suffers","that which happens | incident, accident | incident"
+703948,63,ἐγγύς,"Adverb, Adjective, Preposition",close,near,near | of place | Of time,"near, nigh, at hand | hard by, near to | nearer to"
+707423,63,κατασκηνόω,Verbs,nest; camp,dwell,"to pitch one's tent, lodge, dwell",rest | settle
+713051,62,ὕβρις,Noun,insolence; insult,insolence,,wanton violence | insolence | in wantonness,drop: insult
+713588,62,φρόνησις,Noun,prudence; insight,prudence,"understanding, practical wisdom, prudence","purpose, intention | thought | sense",drop: insight
+707875,62,κραταιόω,Verbs,have dominion,strengthen,to strengthen | to wax strong,strengthen | to be too strong for | prevail against
+707738,62,κλίνω,Verbs,bend; tip over,bend,"to make to bend, to bow | to make to lean, to rest | to decline","cause to lean, make to slope | slant | inclines",drop: tip over
+701026,61,ἀνάπαυσις,Noun,respite; relief,rest,"cessation, rest, refreshment","repose, rest | relaxation, recreation | rest from"
+713524,61,φλόξ,Noun,blaze,flame,a flame,"flame | flames, meteors | fire"
+705082,61,ἐπιβαίνω,Verbs,mount; step on,mount,"to get up on, mount | go aboard | to go up to, go on to, enter","go upon | set foot on, tread, walk upon | set foot on",drop: step on
+710126,61,πάρειμι,Verbs,here; present,present,"to be by, at hand or present | of persons | of things",to be by | present | near,drop: here
+701066,60,ἀνατέλλω,Verbs,spring up; rise,rise,"trans., to cause to rise | Intrans., to rise",make to rise up | make | gush forth,drop: spring up
+705565,60,εὐδοκέω,Verbs,satisfied,delight,"to be well pleased, to think it good, to give consent | to be well pleased or take pleasure with or in a person or thing","to be well pleased | content | to be content with, find pleasure in"
+713192,60,ὑποδείκνυμι,Verbs,give an example; indicate,indicate,"to show by tracing out; hence, generally, to teach, make known","show, indicate | having given a glimpse of | show",drop: give an example
+713576,59,φρέαρ,Noun,pit,well; abyss,a well,"an artificial well | spring | tank, cistern, reservoir"
+709901,59,ὄψις,Noun,sight; face,face,"face, countenance | appear­ance","aspect, appearance | appearance | in appearance",drop: sight
+703787,59,δόλος,Noun,cunning; treachery,deceit,"a bait | a snare | craft, deceit",
+707042,59,καινός,Adjective,innovative; fresh,fresh,,"new, fresh | news | anew, afresh",drop: innovative
+703043,58,γένεσις,Noun,nativity; manner of birth,manner of birth,"origin, lineage | birth | face of his birth | the wheel (course) of birth","origin, source | beginning | manner of birth",drop: nativity
+703588,58,διαστέλλω,Verbs,enjoin; distinctly command,distinctly command,"to divide, distinguish, define | to command, charge expressly","put asunder, expand, separate | to tear | open",drop: enjoin
+704074,58,εἶδος,Noun,aspect; shape,shape,"that which is seen, appearance, external form | form, sort, kind","that which is seen: form, shape | form | figure",drop: aspect
+710167,58,παροργίζω,Verbs,enrage; provoke,provoke,to provoke to anger,provoke to anger | to be | be made angry,drop: enrage
+702183,58,ἀφανισμός,Noun,obscurity,disappearance,vanishing,"extermination, destruction | occultation | occultations"
+709655,58,ὀνειδίζω,Verbs,disparage; reproach,reproach,"to reproach, upbraid","cast in | teeth, make a reproach | make a reproach",drop: disparage
+709419,57,ξηραίνω,Verbs,wither; dry,dry,,"—parch, dry up | make costive | to be",drop: wither
+710288,57,περιαιρέω,Verbs,disconnect; remove,remove,to cast loose | to take away entirely,"take away something that surrounds, strip off, remove | taking off | strip",drop: disconnect
+709496,56,οἰκέτης,Noun,domestic,slave,a house-servant,household slave | household
+700390,56,ἀθῷος,Adjective,guiltless,innocent,a penalty | unpunished | innocent,scot-free | immunity | free from
+710253,56,πένθος,Noun,sadness,grief,mourning,"grief, sorrow | mourning | a public mourning"
+705141,56,ἐπιθυμέω,Verbs,long for; aspire,long for,"to set one's heart upon, desire, lust after, covet","long for, covet, desire | desire to | desire, covet",drop: aspire
+712404,56,συνάπτω,Verbs,tie,join together,"bind together, to join together, unite | to bind | fast | to close",join together | bind | fast

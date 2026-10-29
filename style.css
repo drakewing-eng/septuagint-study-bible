@@ -40,10 +40,10 @@ body.noen .en{display:none}
 .chs a{display:block;text-align:center;padding:.45rem 0;border:1px solid var(--line);border-radius:.35rem;text-decoration:none;font-size:.9rem}
 #scrim{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:30}
 .panel{position:fixed;z-index:35;background:var(--card);border:1px solid var(--line);box-shadow:0 -6px 30px rgba(0,0,0,.2);overflow:auto;
- left:0;right:0;bottom:0;max-height:62vh;border-radius:1rem 1rem 0 0;padding:.6rem 1.1rem calc(1.2rem + env(safe-area-inset-bottom))}
+ left:0;right:0;bottom:0;max-height:70vh;border-radius:1rem 1rem 0 0;padding:.6rem 1.1rem calc(1.2rem + env(safe-area-inset-bottom))}
 .panel-grip{width:2.6rem;height:.3rem;border-radius:1rem;background:var(--line);margin:0 auto .4rem}
-@media (min-width:1000px){.panel{left:auto;top:4rem;right:1rem;bottom:1rem;width:23rem;max-height:none;border-radius:.8rem;box-shadow:0 6px 30px rgba(0,0,0,.15)}.panel-grip{display:none}main{margin-left:max(1rem,calc(50vw - 23rem - 12rem))}}
-.panel .close{position:absolute;right:.4rem;top:.4rem}
+@media (min-width:1000px){.panel{left:auto;top:3.6rem;right:.8rem;bottom:.8rem;width:min(30rem,40vw);max-height:none;border-radius:.8rem;box-shadow:0 6px 30px rgba(0,0,0,.15)}.panel-grip{display:none}body.pop main{margin-left:max(1rem,calc(50vw - 23rem - 15rem))}}
+.panel .close{position:absolute;right:.4rem;top:.4rem;background:var(--card)}
 .form{font-family:var(--greek);font-size:1.9rem;font-weight:700;margin:.2rem 0 0}
 .lemma{font-family:var(--greek);font-size:1.25rem;margin:.1rem 0 .6rem}
 .lemma .tr{font-family:var(--ui);font-size:.85rem;color:var(--muted)}
@@ -64,3 +64,98 @@ body.noen .en{display:none}
 @keyframes fl{0%{background:var(--hl)}100%{background:transparent}}
 .about{line-height:1.6}
 .about h2{color:var(--accent);font-size:1.15rem;margin-top:1.6rem}
+
+/* --- word panel (Legentibus-style dark card) --- */
+.panel{--card:#1d1b19;--fg:#ece6dc;--muted:#9d958a;--line:#34302b;--bg:#26231f;--accent:#e3a76f;--en:#c9bfb2;--hl:#4a3b16;--sel:#d9a441;
+ background:var(--card);color:var(--fg);border-color:#000;font-size:var(--pfs,1rem);padding:.5rem 1rem calc(1rem + env(safe-area-inset-bottom))}
+.panel a{color:var(--accent)}
+.panel-grip{background:#4a443d}
+.pbar{position:sticky;top:0;height:0;z-index:5}
+.pbar .close{position:absolute;right:-.6rem;top:-.1rem;background:none}
+.ptools{position:absolute;right:1.7rem;top:-.1rem;display:flex}
+.ptools .iconbtn{min-width:1.9rem;height:1.9rem;font-size:.75rem;font-weight:700;color:var(--muted)}
+.panel .iconbtn:hover{background:#2c2925}
+.ph{padding:0 4.6rem .5rem 0}
+.form{font-size:1.75rem;line-height:1.15;margin:.1rem 0 0}
+.lemma{font-size:1.05rem;margin:.1rem 0 .35rem}
+.lemma .tr{font:.8rem var(--ui);color:var(--muted)}
+.g1{font:600 .85rem var(--ui);color:var(--fg);margin-left:.2rem}
+.fx{color:#d9a441}
+.chips{display:flex;flex-wrap:wrap;gap:.25rem}
+.chip{font:600 .7rem var(--ui);border:1px solid #3d3832;background:#2a2622;color:var(--fg);border-radius:.35rem;padding:.12rem .45rem;cursor:pointer;line-height:1.3}
+.chip.pos{background:var(--accent);border-color:var(--accent);color:#1d1b19;cursor:default}
+.chip.fx{border-color:#d9a441;color:#d9a441;cursor:help}
+.gexp{margin:.4rem 0 0;font-size:.8rem;line-height:1.4;color:var(--muted)}
+.tabs{display:flex;gap:.2rem;border-bottom:1px solid var(--line);margin:.2rem 0 .3rem}
+.tab{background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);font:600 .78rem var(--ui);padding:.35rem .5rem;cursor:pointer}
+.tab.on{color:var(--fg);border-bottom-color:var(--accent)}
+.mbody{min-height:2.5rem}
+.senses{margin:.1rem 0 .1rem;padding-left:1.2rem;line-height:1.4;font-size:.95rem}
+.senses li::marker{color:var(--muted);font-size:.8em}
+.sub{font-size:.78rem;color:var(--muted)}
+.src{font-size:.65rem;color:var(--muted);margin-top:.2rem;opacity:.85}
+.row{border-top:1px solid var(--line);padding:.45rem 0;font-size:.88rem;line-height:1.4}
+details.row>summary{cursor:pointer;list-style:none}
+details.row>summary::-webkit-details-marker{display:none}
+details.row>summary::after{content:' ▾';color:var(--muted)}
+details.row.flat>summary::after{content:''}
+.rl{display:inline-block;min-width:3.2rem;font:700 .65rem var(--ui);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
+.rv{font-size:.85rem}
+.rc{font:600 .7rem var(--ui);background:#2a2622;border:1px solid #3d3832;color:var(--accent);border-radius:.35rem;padding:.1rem .45rem;margin:0 .2rem .1rem 0;cursor:pointer;text-decoration:none;display:inline-block}
+.refopen{margin:.35rem 0 0;font-size:.82rem}
+.ntg{font-family:var(--greek);font-size:.95rem;margin-top:.2rem;color:var(--en)}
+.lw{font:italic 600 .95rem var(--greek)}
+.lv{font:italic .92rem/1.4 var(--greek);margin-top:.2rem;color:var(--en)}
+details.dr{font:.78rem/1.4 Georgia,serif;color:var(--muted);margin-top:.15rem}
+details.dr summary{cursor:pointer;font:600 .68rem var(--ui)}
+.panel .links{gap:.3rem;margin-top:.5rem;border-top:1px solid var(--line);padding-top:.5rem}
+.panel .links a{font-size:.7rem;padding:.15rem .5rem;border-color:#3d3832}
+details.pg summary{cursor:pointer;color:var(--accent);font-size:.78rem;padding:.15rem 0}
+table.pd{border-collapse:collapse;margin:.2rem 0 .3rem;font-family:var(--greek);font-size:.9rem;width:100%}
+table.pd th{font:600 .62rem var(--ui);color:var(--muted);text-align:left;padding:.15rem .25rem;white-space:nowrap}
+table.pd td{border:1px solid var(--line);padding:.12rem .25rem;vertical-align:top;line-height:1.3}
+table.pd td.empty{color:#3d3832;text-align:center}
+table.pd td.curcell{background:#3a3020}
+.pf{text-decoration:none;color:var(--fg)!important;white-space:nowrap}
+.pf sup{font:.55rem var(--ui);color:var(--muted)}
+.pf.cur{background:var(--sel);color:#111!important;border-radius:.2rem;padding:0 .15rem;font-weight:700}
+.pf.cur sup{color:#333}
+/* chapter-level */
+.badge{font-size:.82rem;line-height:1.45;border:1px solid #c9a227;background:rgba(201,162,39,.1);border-radius:.5rem;padding:.4rem .6rem;margin:0 0 1rem}
+.enm{font-family:var(--ui);font-size:.72em;color:var(--muted);white-space:nowrap}
+.enm.warn{color:#b26b00}
+.en.none{font-style:italic;color:var(--muted)}
+.ntm{font:700 .5em var(--ui);color:#fff;background:var(--accent);border-radius:.25rem;padding:.05rem .25rem;margin-right:.25rem;vertical-align:super}
+[data-theme=dark] .ntm{color:#16130f}
+.lbl .nt{text-transform:none}
+
+/* --- compact first view (Greek Study Bible style) --- */
+.sum{padding:0 4.6rem .1rem 0}
+.srow{display:flex;align-items:baseline;gap:.6rem}
+.slem{font-size:1.6rem;line-height:1.2}
+.sfreq{margin-left:auto;color:var(--muted);font-size:.95rem;font-variant-numeric:tabular-nums}
+.panel:not(.exp) .ptools{display:none}.sum{padding-right:2rem}.panel.exp .sum{padding-right:5.4rem}.srow .tr{color:var(--muted);font-size:.85rem}
+.sdef{font-size:1.08rem;margin:.15rem 0 .1rem .1rem}
+.sparse{color:var(--en);font-size:.9rem;margin-left:.9rem;line-height:1.35}
+.sform{color:var(--fg);margin-right:.2rem}
+.more{background:none;border:0;color:var(--accent);font:inherit;font-size:.78rem;padding:.35rem 0 0;cursor:pointer}
+#more{border-top:1px solid var(--line);margin-top:.45rem;padding-top:.5rem}
+#more .ph{padding-right:0}#more .form{font-size:1.3rem}
+.panel-grip{cursor:pointer;padding:.25rem 0;background-clip:content-box;height:.3rem;box-sizing:content-box}
+@media (max-width:999px){.panel{max-height:85vh;transition:max-height .2s}.panel:not(.exp){max-height:40vh}}
+@media (min-width:1000px){.panel:not(.exp){bottom:auto;max-height:calc(100vh - 4.4rem)}}
+
+/* --- Latin word --- */
+#latRow .lw{font-family:var(--gk,inherit);font-size:1.1rem;font-weight:600;color:var(--fg)}
+#latRow .lp{color:var(--en);font-size:.85rem}
+#latRow .lg{font-size:.88rem;margin:.1rem 0 0 0}
+#latRow .lnone{color:var(--muted);font-size:.85rem;font-style:italic}
+#latRow .lv b{color:var(--accent);font-weight:600}
+#latRow details.dr summary{font-size:.75rem;color:var(--muted);cursor:pointer;margin-top:.3rem}
+
+/* --- two English translations --- */
+body.en-b .en2, body.en-x .en1, body.en-x .en.none{display:none}
+body.en-bx .en1::before{content:'Brenton 1844 · ';font:600 .62rem var(--ui);letter-spacing:.03em;color:var(--muted);text-transform:uppercase}
+body.en-bx .en2::before{content:'LXX2012 · ';font:600 .62rem var(--ui);letter-spacing:.03em;color:var(--muted);text-transform:uppercase}
+body.en-bx .en2{margin-top:.15rem}
+#enBtn{min-width:3.2rem}

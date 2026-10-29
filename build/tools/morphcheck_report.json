@@ -1,0 +1,9 @@
+{
+ "sample": 4400,
+ "seed": 2026,
+ "not_covered": 1340,
+ "agree": 3032,
+ "disagree": 28,
+ "agreement_rate_where_covered": 0.9908,
+ "coverage": 0.6955
+}
