@@ -1,0 +1,66 @@
+@font-face{font-family:"Gentium Plus";src:url(fonts/GentiumPlus-Regular.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Gentium Plus";src:url(fonts/GentiumPlus-Bold.woff2) format("woff2");font-weight:700;font-display:swap}
+:root{--bg:#fbf8f2;--fg:#2a2420;--muted:#6f655c;--accent:#7a3e1d;--card:#fff;--line:#e4dccf;--hl:#fde8b0;--sel:#f6c453;--en:#5a5048;--fs:1.3rem;
+ --greek:"Gentium Plus","Noto Serif","GFS Didot","Palatino Linotype","Times New Roman",serif;--ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+[data-theme=dark]{--bg:#16130f;--fg:#ebe3d6;--muted:#a89c8d;--accent:#e0a06a;--card:#221d18;--line:#3a322a;--hl:#4a3b16;--sel:#8a6414;--en:#bfb3a3}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#16130f;--fg:#ebe3d6;--muted:#a89c8d;--accent:#e0a06a;--card:#221d18;--line:#3a322a;--hl:#4a3b16;--sel:#8a6414;--en:#bfb3a3}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--ui)}
+a{color:var(--accent)}
+button{font:inherit;color:inherit}
+.top{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:.4rem;padding:.4rem .6rem;padding-top:max(.4rem,env(safe-area-inset-top));background:var(--bg);border-bottom:1px solid var(--line)}
+.brand{font-family:var(--greek);font-weight:700;font-size:1.15rem;text-decoration:none;color:var(--accent);white-space:nowrap}
+.nav{display:flex;align-items:center;gap:.2rem;margin-left:auto}
+.tools{display:flex;gap:.1rem}
+.iconbtn{background:none;border:0;min-width:2.4rem;height:2.4rem;border-radius:.5rem;font-size:1.3rem;cursor:pointer;line-height:1}
+.iconbtn.txt{font-size:.85rem;font-weight:700}
+.iconbtn:hover,.loc:hover{background:var(--line)}
+.iconbtn.on{color:var(--accent)}
+.loc{background:none;border:1px solid var(--line);border-radius:.5rem;padding:.35rem .6rem;cursor:pointer;font-weight:600;max-width:40vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:640px){.brand span{display:none}.top{flex-wrap:wrap}.nav{order:3;width:100%;justify-content:center;margin:0}.tools{margin-left:auto}.loc{max-width:70vw}}
+main{max-width:46rem;margin:0 auto;padding:1rem 1.1rem 40vh;outline:none}
+h1{font-family:var(--greek);color:var(--accent);font-size:1.6rem;margin:.5rem 0 1rem}
+h1 small{font-family:var(--ui);color:var(--muted);font-size:.85rem;font-weight:400;display:block}
+.verse{font-family:var(--greek);font-size:var(--fs);line-height:1.75;margin:0 0 .55rem}
+.vn{font-family:var(--ui);font-size:.62em;color:var(--accent);font-weight:700;vertical-align:super;margin-right:.2em;user-select:none;cursor:pointer}
+.w{cursor:pointer;border-radius:.2em;padding:0 .04em;transition:background .1s}
+.w:hover{background:var(--line)}
+.w.same{background:var(--hl)}
+.w.sel{background:var(--sel);color:#000}
+.en{display:block;font-family:Georgia,serif;font-size:.68em;line-height:1.45;color:var(--en);margin:.1rem 0 .3rem}
+body.noen .en{display:none}
+.chnav{display:flex;justify-content:space-between;margin:2rem 0;gap:1rem}
+.chnav a{padding:.6rem 1rem;border:1px solid var(--line);border-radius:.5rem;text-decoration:none}
+.drawer{position:fixed;z-index:40;top:0;left:0;bottom:0;width:min(22rem,88vw);overflow:auto;background:var(--card);border-right:1px solid var(--line);padding:.5rem 1rem 2rem;box-shadow:0 0 30px rgba(0,0,0,.25)}
+.drawer-head{display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;background:var(--card);padding:.4rem 0}
+.grp{font-size:.75rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:1rem 0 .3rem}
+.bk{display:block;width:100%;text-align:left;background:none;border:0;padding:.45rem .3rem;border-radius:.4rem;cursor:pointer}
+.bk:hover,.bk.cur{background:var(--line)}
+.chs{display:grid;grid-template-columns:repeat(auto-fill,minmax(2.6rem,1fr));gap:.3rem;padding:.3rem 0 .8rem}
+.chs a{display:block;text-align:center;padding:.45rem 0;border:1px solid var(--line);border-radius:.35rem;text-decoration:none;font-size:.9rem}
+#scrim{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:30}
+.panel{position:fixed;z-index:35;background:var(--card);border:1px solid var(--line);box-shadow:0 -6px 30px rgba(0,0,0,.2);overflow:auto;
+ left:0;right:0;bottom:0;max-height:62vh;border-radius:1rem 1rem 0 0;padding:.6rem 1.1rem calc(1.2rem + env(safe-area-inset-bottom))}
+.panel-grip{width:2.6rem;height:.3rem;border-radius:1rem;background:var(--line);margin:0 auto .4rem}
+@media (min-width:1000px){.panel{left:auto;top:4rem;right:1rem;bottom:1rem;width:23rem;max-height:none;border-radius:.8rem;box-shadow:0 6px 30px rgba(0,0,0,.15)}.panel-grip{display:none}main{margin-left:max(1rem,calc(50vw - 23rem - 12rem))}}
+.panel .close{position:absolute;right:.4rem;top:.4rem}
+.form{font-family:var(--greek);font-size:1.9rem;font-weight:700;margin:.2rem 0 0}
+.lemma{font-family:var(--greek);font-size:1.25rem;margin:.1rem 0 .6rem}
+.lemma .tr{font-family:var(--ui);font-size:.85rem;color:var(--muted)}
+.lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-top:.7rem}
+.parse{font-size:1.05rem;font-weight:600}
+.code{font-family:ui-monospace,monospace;font-size:.8rem;color:var(--muted)}
+.gloss{font-size:1.05rem}
+.links{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+.links a{font-size:.85rem;padding:.35rem .6rem;border:1px solid var(--line);border-radius:2rem;text-decoration:none}
+.small{font-size:.8rem;color:var(--muted)}
+.loading{color:var(--muted)}
+.search input{width:100%;font-size:1.2rem;padding:.6rem .8rem;border:1px solid var(--line);border-radius:.5rem;background:var(--card);color:var(--fg);font-family:var(--greek)}
+.res{display:block;padding:.55rem .3rem;border-bottom:1px solid var(--line);text-decoration:none;color:var(--fg);cursor:pointer}
+.res b{font-family:var(--greek);font-size:1.15rem;color:var(--accent)}
+.refs{display:flex;flex-wrap:wrap;gap:.3rem}
+.refs a{font-size:.85rem;padding:.2rem .45rem;border:1px solid var(--line);border-radius:.3rem;text-decoration:none}
+.flash{animation:fl 2s}
+@keyframes fl{0%{background:var(--hl)}100%{background:transparent}}
+.about{line-height:1.6}
+.about h2{color:var(--accent);font-size:1.15rem;margin-top:1.6rem}

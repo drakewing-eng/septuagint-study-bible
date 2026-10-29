@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Septuagint Reader</title>
+<meta name="description" content="Read the Greek Septuagint (Rahlfs 1935) — tap any word for lemma, parsing and gloss.">
+<meta name="theme-color" content="#7a3e1d">
+<link rel="stylesheet" href="style.css">
+<link rel="preload" href="fonts/GentiumPlus-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<script>try{var t=localStorage.getItem('lxx-theme');if(t)document.documentElement.dataset.theme=t;}catch(e){}</script>
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="iconbtn" aria-label="Books" title="Books">☰</button>
+  <a href="#/" class="brand">Septuagint<span> Reader</span></a>
+  <div class="nav">
+    <button id="prevBtn" class="iconbtn" aria-label="Previous chapter" title="Previous chapter">‹</button>
+    <button id="locBtn" class="loc" aria-label="Choose chapter"></button>
+    <button id="nextBtn" class="iconbtn" aria-label="Next chapter" title="Next chapter">›</button>
+  </div>
+  <div class="tools">
+    <button id="searchBtn" class="iconbtn" aria-label="Search lemma" title="Search by lemma or English">⌕</button>
+    <button id="enBtn" class="iconbtn txt" aria-label="Toggle English" title="Show/hide Brenton English">EN</button>
+    <button id="themeBtn" class="iconbtn" aria-label="Toggle dark mode" title="Dark / light">◐</button>
+    <button id="sizeBtn" class="iconbtn txt" aria-label="Text size" title="Text size">Aa</button>
+  </div>
+</header>
+
+<aside id="books" class="drawer" hidden>
+  <div class="drawer-head"><strong>Books</strong><button class="iconbtn close" data-close="books" aria-label="Close">✕</button></div>
+  <div id="bookList"></div>
+  <p class="small"><a href="#/about">About, sources &amp; licenses</a></p>
+</aside>
+
+<main id="main" tabindex="-1"><p class="loading">Loading…</p></main>
+
+<section id="panel" class="panel" hidden aria-live="polite">
+  <div class="panel-grip"></div>
+  <button class="iconbtn close" id="panelClose" aria-label="Close">✕</button>
+  <div id="panelBody"></div>
+</section>
+<div id="scrim" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
